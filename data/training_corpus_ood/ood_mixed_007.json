@@ -1,0 +1,3842 @@
+{
+  "taskgraph": {
+    "version": "0.1",
+    "mission_id": "ood_mixed_007",
+    "nodes": [
+      {
+        "id": "mchain_000",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          440.6,
+          586.1,
+          0.0
+        ],
+        "estimated_duration_s": 94.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_001",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          937.4,
+          499.2,
+          0.0
+        ],
+        "estimated_duration_s": 126.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_002",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          21.0,
+          489.6,
+          0.0
+        ],
+        "estimated_duration_s": 155.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_003",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          196.5,
+          418.5,
+          0.0
+        ],
+        "estimated_duration_s": 97.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_004",
+        "op_type": "DeployRelay",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          370.2,
+          1247.6,
+          0.0
+        ],
+        "estimated_duration_s": 75.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_005",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          964.1,
+          554.0,
+          0.0
+        ],
+        "estimated_duration_s": 153.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_006",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          533.6,
+          518.1,
+          0.0
+        ],
+        "estimated_duration_s": 136.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_007",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          826.1,
+          722.4,
+          0.0
+        ],
+        "estimated_duration_s": 178.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_008",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          145.6,
+          1025.8,
+          0.0
+        ],
+        "estimated_duration_s": 171.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_009",
+        "op_type": "DeployRelay",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1496.5,
+          79.3,
+          0.0
+        ],
+        "estimated_duration_s": 150.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_010",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          769.8,
+          7.9,
+          0.0
+        ],
+        "estimated_duration_s": 171.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_011",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1017.8,
+          989.2,
+          0.0
+        ],
+        "estimated_duration_s": 72.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_012",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          419.3,
+          1461.7,
+          0.0
+        ],
+        "estimated_duration_s": 119.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_013",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          280.8,
+          1075.8,
+          0.0
+        ],
+        "estimated_duration_s": 78.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_014",
+        "op_type": "DeployRelay",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          776.2,
+          817.1,
+          0.0
+        ],
+        "estimated_duration_s": 98.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_015",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1041.0,
+          16.2,
+          0.0
+        ],
+        "estimated_duration_s": 67.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_016",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1047.8,
+          704.0,
+          0.0
+        ],
+        "estimated_duration_s": 169.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_017",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1321.5,
+          245.1,
+          0.0
+        ],
+        "estimated_duration_s": 135.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_018",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1214.1,
+          482.2,
+          0.0
+        ],
+        "estimated_duration_s": 66.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_019",
+        "op_type": "DeployRelay",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1424.5,
+          593.3,
+          0.0
+        ],
+        "estimated_duration_s": 155.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_020",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          773.0,
+          1398.5,
+          0.0
+        ],
+        "estimated_duration_s": 71.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_021",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1112.6,
+          1199.4,
+          0.0
+        ],
+        "estimated_duration_s": 134.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_022",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1460.7,
+          614.4,
+          0.0
+        ],
+        "estimated_duration_s": 102.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_023",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          640.6,
+          101.4,
+          0.0
+        ],
+        "estimated_duration_s": 75.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_024",
+        "op_type": "DeployRelay",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          757.1,
+          145.2,
+          0.0
+        ],
+        "estimated_duration_s": 84.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mchain_025",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1322.4,
+          557.4,
+          0.0
+        ],
+        "estimated_duration_s": 105.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_000",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          250.2,
+          1205.3,
+          0.0
+        ],
+        "estimated_duration_s": 143.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_001",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          423.5,
+          413.5,
+          0.0
+        ],
+        "estimated_duration_s": 65.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_002",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1433.8,
+          944.3,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_003",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          788.4,
+          141.9,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_004",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1382.5,
+          1419.1,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_005",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          739.6,
+          40.9,
+          0.0
+        ],
+        "estimated_duration_s": 113.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_006",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          197.6,
+          824.5,
+          0.0
+        ],
+        "estimated_duration_s": 66.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_007",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1168.7,
+          886.3,
+          0.0
+        ],
+        "estimated_duration_s": 94.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_008",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          670.3,
+          1408.3,
+          0.0
+        ],
+        "estimated_duration_s": 103.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_009",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1011.8,
+          161.8,
+          0.0
+        ],
+        "estimated_duration_s": 111.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_010",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          328.3,
+          119.2,
+          0.0
+        ],
+        "estimated_duration_s": 98.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_011",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1400.4,
+          426.1,
+          0.0
+        ],
+        "estimated_duration_s": 130.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_012",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1251.6,
+          179.0,
+          0.0
+        ],
+        "estimated_duration_s": 105.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_013",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          290.9,
+          858.8,
+          0.0
+        ],
+        "estimated_duration_s": 81.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_014",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          740.9,
+          291.5,
+          0.0
+        ],
+        "estimated_duration_s": 104.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_015",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1195.4,
+          1336.7,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_016",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1403.5,
+          177.5,
+          0.0
+        ],
+        "estimated_duration_s": 111.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_017",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1263.3,
+          1327.6,
+          0.0
+        ],
+        "estimated_duration_s": 109.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_018",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          66.7,
+          144.5,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_019",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1241.9,
+          100.9,
+          0.0
+        ],
+        "estimated_duration_s": 102.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_020",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          916.7,
+          756.5,
+          0.0
+        ],
+        "estimated_duration_s": 84.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_021",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          868.6,
+          802.4,
+          0.0
+        ],
+        "estimated_duration_s": 101.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_022",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1126.6,
+          711.5,
+          0.0
+        ],
+        "estimated_duration_s": 78.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_023",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          296.4,
+          813.5,
+          0.0
+        ],
+        "estimated_duration_s": 143.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_024",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1044.1,
+          1351.9,
+          0.0
+        ],
+        "estimated_duration_s": 97.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_025",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1362.0,
+          1314.7,
+          0.0
+        ],
+        "estimated_duration_s": 112.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_026",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          530.6,
+          81.9,
+          0.0
+        ],
+        "estimated_duration_s": 116.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_027",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1014.7,
+          1412.6,
+          0.0
+        ],
+        "estimated_duration_s": 133.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_028",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1388.7,
+          1109.4,
+          0.0
+        ],
+        "estimated_duration_s": 96.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_029",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          48.9,
+          313.9,
+          0.0
+        ],
+        "estimated_duration_s": 112.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_030",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          671.1,
+          381.8,
+          0.0
+        ],
+        "estimated_duration_s": 133.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_031",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          233.7,
+          623.5,
+          0.0
+        ],
+        "estimated_duration_s": 109.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_032",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1174.3,
+          74.1,
+          0.0
+        ],
+        "estimated_duration_s": 149.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_033",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1460.7,
+          822.2,
+          0.0
+        ],
+        "estimated_duration_s": 101.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_034",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          882.1,
+          824.1,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_035",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          86.9,
+          1337.3,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_036",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1404.5,
+          747.9,
+          0.0
+        ],
+        "estimated_duration_s": 148.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_037",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          686.5,
+          504.8,
+          0.0
+        ],
+        "estimated_duration_s": 147.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_038",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          606.6,
+          561.5,
+          0.0
+        ],
+        "estimated_duration_s": 134.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_039",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          545.2,
+          1232.4,
+          0.0
+        ],
+        "estimated_duration_s": 126.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_040",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1457.5,
+          1289.7,
+          0.0
+        ],
+        "estimated_duration_s": 127.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_041",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          618.9,
+          720.5,
+          0.0
+        ],
+        "estimated_duration_s": 64.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_042",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          637.8,
+          943.0,
+          0.0
+        ],
+        "estimated_duration_s": 96.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_043",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          512.4,
+          470.9,
+          0.0
+        ],
+        "estimated_duration_s": 76.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_044",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1343.3,
+          1079.0,
+          0.0
+        ],
+        "estimated_duration_s": 98.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_045",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1236.6,
+          1227.9,
+          0.0
+        ],
+        "estimated_duration_s": 104.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_046",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          431.0,
+          1222.9,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_047",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          923.5,
+          426.0,
+          0.0
+        ],
+        "estimated_duration_s": 99.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_048",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1168.4,
+          311.3,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_049",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          660.3,
+          1121.8,
+          0.0
+        ],
+        "estimated_duration_s": 132.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_050",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1274.8,
+          631.3,
+          0.0
+        ],
+        "estimated_duration_s": 95.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_051",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1103.9,
+          780.5,
+          0.0
+        ],
+        "estimated_duration_s": 115.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_052",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1266.2,
+          778.1,
+          0.0
+        ],
+        "estimated_duration_s": 141.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_053",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          71.7,
+          947.6,
+          0.0
+        ],
+        "estimated_duration_s": 71.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_054",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          575.7,
+          97.2,
+          0.0
+        ],
+        "estimated_duration_s": 118.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "mpar_055",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1129.0,
+          820.1,
+          0.0
+        ],
+        "estimated_duration_s": 114.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_000",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1399.6,
+          656.6,
+          0.0
+        ],
+        "estimated_duration_s": 139.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_001",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          936.9,
+          936.8,
+          0.0
+        ],
+        "estimated_duration_s": 147.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_002",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1156.5,
+          208.7,
+          0.0
+        ],
+        "estimated_duration_s": 109.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_003",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1030.7,
+          19.2,
+          0.0
+        ],
+        "estimated_duration_s": 170.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_004",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1343.2,
+          1321.2,
+          0.0
+        ],
+        "estimated_duration_s": 146.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_005",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          493.5,
+          1230.7,
+          0.0
+        ],
+        "estimated_duration_s": 93.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_006",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1114.0,
+          208.8,
+          0.0
+        ],
+        "estimated_duration_s": 111.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_007",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          535.9,
+          1025.6,
+          0.0
+        ],
+        "estimated_duration_s": 150.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_008",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          916.8,
+          773.2,
+          0.0
+        ],
+        "estimated_duration_s": 173.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_009",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          869.7,
+          6.9,
+          0.0
+        ],
+        "estimated_duration_s": 122.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_010",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          231.1,
+          1024.8,
+          0.0
+        ],
+        "estimated_duration_s": 150.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_011",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1195.3,
+          1251.1,
+          0.0
+        ],
+        "estimated_duration_s": 121.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_012",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1160.6,
+          45.5,
+          0.0
+        ],
+        "estimated_duration_s": 145.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_013",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          861.0,
+          1477.8,
+          0.0
+        ],
+        "estimated_duration_s": 127.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_014",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          896.3,
+          741.7,
+          0.0
+        ],
+        "estimated_duration_s": 139.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_015",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          922.7,
+          13.6,
+          0.0
+        ],
+        "estimated_duration_s": 156.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_016",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1310.7,
+          1411.1,
+          0.0
+        ],
+        "estimated_duration_s": 157.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_017",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1153.8,
+          1052.3,
+          0.0
+        ],
+        "estimated_duration_s": 161.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_018",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          585.8,
+          935.0,
+          0.0
+        ],
+        "estimated_duration_s": 145.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_019",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1393.8,
+          417.4,
+          0.0
+        ],
+        "estimated_duration_s": 167.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "msamp_020",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          255.5,
+          1178.9,
+          0.0
+        ],
+        "estimated_duration_s": 155.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e_0",
+        "type": "order",
+        "src": "mchain_000",
+        "dst": "mchain_001",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_1",
+        "type": "order",
+        "src": "mchain_001",
+        "dst": "mchain_002",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_2",
+        "type": "order",
+        "src": "mchain_002",
+        "dst": "mchain_003",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_3",
+        "type": "order",
+        "src": "mchain_003",
+        "dst": "mchain_004",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_4",
+        "type": "order",
+        "src": "mchain_004",
+        "dst": "mchain_005",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_5",
+        "type": "order",
+        "src": "mchain_005",
+        "dst": "mchain_006",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_6",
+        "type": "order",
+        "src": "mchain_006",
+        "dst": "mchain_007",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_7",
+        "type": "order",
+        "src": "mchain_007",
+        "dst": "mchain_008",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_8",
+        "type": "order",
+        "src": "mchain_008",
+        "dst": "mchain_009",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_9",
+        "type": "order",
+        "src": "mchain_009",
+        "dst": "mchain_010",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_10",
+        "type": "order",
+        "src": "mchain_010",
+        "dst": "mchain_011",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_11",
+        "type": "order",
+        "src": "mchain_011",
+        "dst": "mchain_012",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_12",
+        "type": "order",
+        "src": "mchain_012",
+        "dst": "mchain_013",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_13",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mchain_014",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_14",
+        "type": "order",
+        "src": "mchain_014",
+        "dst": "mchain_015",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_15",
+        "type": "order",
+        "src": "mchain_015",
+        "dst": "mchain_016",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_16",
+        "type": "order",
+        "src": "mchain_016",
+        "dst": "mchain_017",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_17",
+        "type": "order",
+        "src": "mchain_017",
+        "dst": "mchain_018",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_18",
+        "type": "order",
+        "src": "mchain_018",
+        "dst": "mchain_019",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_19",
+        "type": "order",
+        "src": "mchain_019",
+        "dst": "mchain_020",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_20",
+        "type": "order",
+        "src": "mchain_020",
+        "dst": "mchain_021",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_21",
+        "type": "order",
+        "src": "mchain_021",
+        "dst": "mchain_022",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_22",
+        "type": "order",
+        "src": "mchain_022",
+        "dst": "mchain_023",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_23",
+        "type": "order",
+        "src": "mchain_023",
+        "dst": "mchain_024",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_24",
+        "type": "order",
+        "src": "mchain_024",
+        "dst": "mchain_025",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_25",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_000",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_26",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_001",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_27",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_002",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_28",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_003",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_29",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_004",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_30",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_005",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_31",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_006",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_32",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_007",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_33",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_008",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_34",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_009",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_35",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_010",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_36",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_011",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_37",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_012",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_38",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_013",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_39",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_014",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_40",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_015",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_41",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_016",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_42",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_017",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_43",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_018",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_44",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_019",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_45",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_020",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_46",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_021",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_47",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_022",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_48",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_023",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_49",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_024",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_50",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_025",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_51",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_026",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_52",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_027",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_53",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_028",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_54",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_029",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_55",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_030",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_56",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_031",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_57",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_032",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_58",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_033",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_59",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_034",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_60",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_035",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_61",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_036",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_62",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_037",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_63",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_038",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_64",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_039",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_65",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_040",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_66",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_041",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_67",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_042",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_68",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_043",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_69",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_044",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_70",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_045",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_71",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_046",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_72",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_047",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_73",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_048",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_74",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_049",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_75",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_050",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_76",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_051",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_77",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_052",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_78",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_053",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_79",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_054",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_80",
+        "type": "order",
+        "src": "mchain_013",
+        "dst": "mpar_055",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_81",
+        "type": "data",
+        "src": "mchain_025",
+        "dst": "msamp_000",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_82",
+        "type": "data",
+        "src": "mpar_011",
+        "dst": "msamp_001",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_83",
+        "type": "data",
+        "src": "mpar_050",
+        "dst": "msamp_002",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_84",
+        "type": "data",
+        "src": "mpar_030",
+        "dst": "msamp_003",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_85",
+        "type": "data",
+        "src": "mpar_034",
+        "dst": "msamp_004",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_86",
+        "type": "data",
+        "src": "mpar_048",
+        "dst": "msamp_005",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_87",
+        "type": "data",
+        "src": "mpar_040",
+        "dst": "msamp_006",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_88",
+        "type": "data",
+        "src": "mpar_013",
+        "dst": "msamp_007",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_89",
+        "type": "data",
+        "src": "mpar_055",
+        "dst": "msamp_008",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_90",
+        "type": "data",
+        "src": "mpar_029",
+        "dst": "msamp_009",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_91",
+        "type": "data",
+        "src": "mpar_042",
+        "dst": "msamp_010",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_92",
+        "type": "data",
+        "src": "mpar_035",
+        "dst": "msamp_011",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_93",
+        "type": "data",
+        "src": "mpar_038",
+        "dst": "msamp_012",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_94",
+        "type": "data",
+        "src": "mpar_013",
+        "dst": "msamp_013",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_95",
+        "type": "data",
+        "src": "mpar_048",
+        "dst": "msamp_014",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_96",
+        "type": "data",
+        "src": "mpar_037",
+        "dst": "msamp_015",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_97",
+        "type": "data",
+        "src": "mpar_002",
+        "dst": "msamp_016",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_98",
+        "type": "data",
+        "src": "mpar_007",
+        "dst": "msamp_017",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_99",
+        "type": "data",
+        "src": "mpar_011",
+        "dst": "msamp_018",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_100",
+        "type": "data",
+        "src": "mpar_018",
+        "dst": "msamp_019",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_101",
+        "type": "data",
+        "src": "mpar_014",
+        "dst": "msamp_020",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      }
+    ],
+    "constraints": {
+      "min_battery_percent": null,
+      "max_concurrent_tasks_per_agent": 1,
+      "periodic": []
+    },
+    "metadata": {}
+  },
+  "metadata": {
+    "scale": "ood",
+    "topology_class": "mixed",
+    "n_agents_recommended": 12,
+    "sampler_seed": 349,
+    "structural_features": {
+      "n_tasks": 103,
+      "n_edges": 102,
+      "mutex_edges": 0,
+      "mutex_ratio": 0.0,
+      "longest_chain_depth": 27,
+      "parallelism_index": 1
+    },
+    "variant_description": "OOD mixed variant 7",
+    "generated_by": "ood_generator"
+  },
+  "baseline_sim_result": {
+    "makespan": 37246.79,
+    "greedy_cpm_makespan": 37246.79,
+    "greedy_coupled_makespan": 54256.0,
+    "cpsat_makespan": null,
+    "cpsat_status": "UNSOLVED",
+    "n_agents_used": 12
+  }
+}

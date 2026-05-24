@@ -1,0 +1,58 @@
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# --- Virtual environments --------------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+
+# --- Editors / OS ---------------------------------------------------------
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- Notebooks ------------------------------------------------------------
+.ipynb_checkpoints/
+
+# --- Build / dist ---------------------------------------------------------
+build/
+dist/
+*.egg
+
+# --- Logs / temp files ----------------------------------------------------
+*.log
+*.bak
+*.tmp
+
+# --- Secrets (never commit) -----------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+api_keys.json
+*_secret.*
+*_credentials.*
+
+# --- Experiment outputs (regenerated on every run; never committed) -------
+results/
+experiments/results/
+/figures/
+*.pkl
+
+# --- Local-only ------------------------------------------------------------
+local_*/
+scratch/

@@ -1,0 +1,471 @@
+{
+  "taskgraph": {
+    "version": "0.1",
+    "mission_id": "small_c_multi_sample",
+    "nodes": [
+      {
+        "id": "sc_scan_cell_0",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_sc_scan_0"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          110.0,
+          110.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "sample_sc_s0_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "sc_s0",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_sc_scan_0"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          105.0,
+          105.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_sc_s0_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "sc_s0",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          105.0,
+          105.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_sc_s0_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "sc_s0",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          105.0,
+          105.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_sc_s0_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "sc_s0",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_sc_s0"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          105.0,
+          105.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_sc_s1_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "sc_s1",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_sc_scan_1"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          115.0,
+          115.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_sc_s1_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "sc_s1",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          115.0,
+          115.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_sc_s1_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "sc_s1",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          115.0,
+          115.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_sc_s1_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "sc_s1",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_sc_s1"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          115.0,
+          115.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      }
+    ],
+    "edges": [
+      {
+        "id": "sample_sc_s0_order_0_1",
+        "type": "order",
+        "src": "sample_sc_s0_approach",
+        "dst": "sample_sc_s0_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_sc_s0_order_1_2",
+        "type": "order",
+        "src": "sample_sc_s0_deploy_arm",
+        "dst": "sample_sc_s0_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_sc_s0_order_2_3",
+        "type": "order",
+        "src": "sample_sc_s0_extract",
+        "dst": "sample_sc_s0_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_sc_s1_order_0_1",
+        "type": "order",
+        "src": "sample_sc_s1_approach",
+        "dst": "sample_sc_s1_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_sc_s1_order_1_2",
+        "type": "order",
+        "src": "sample_sc_s1_deploy_arm",
+        "dst": "sample_sc_s1_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_sc_s1_order_2_3",
+        "type": "order",
+        "src": "sample_sc_s1_extract",
+        "dst": "sample_sc_s1_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_0",
+        "type": "data",
+        "src": "sc_scan_cell_0",
+        "dst": "sample_sc_s0_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      }
+    ],
+    "constraints": {
+      "min_battery_percent": null,
+      "max_concurrent_tasks_per_agent": 1,
+      "periodic": []
+    },
+    "metadata": {}
+  },
+  "metadata": {
+    "scale": "small",
+    "variant_description": "C: Multi-sample dense (2 sampling pipelines)",
+    "generated_by": "tool_library",
+    "node_count": 9,
+    "edge_count": 7,
+    "agent_count": 3,
+    "baseline_method": "greedy+CPM"
+  },
+  "baseline_sim_result": {
+    "makespan": 2266.69,
+    "task_completion_rate": 1.0,
+    "energy_consumption": {
+      "rover_1": 80.78174593052017,
+      "relay_1": 0.0,
+      "sampler_1": 174.67261889577958
+    },
+    "constraint_violations": [],
+    "comm_connectivity_rate": 1.0,
+    "bottleneck_tasks": [
+      "sample_sc_s0_approach",
+      "sample_sc_s0_deploy_arm",
+      "sample_sc_s0_extract",
+      "sample_sc_s0_store"
+    ],
+    "completed_tasks": [
+      "sample_sc_s1_approach",
+      "sc_scan_cell_0",
+      "sample_sc_s1_deploy_arm",
+      "sample_sc_s0_approach",
+      "sample_sc_s1_extract",
+      "sample_sc_s0_deploy_arm",
+      "sample_sc_s1_store",
+      "sample_sc_s0_extract",
+      "sample_sc_s0_store"
+    ],
+    "failed_tasks": [],
+    "greedy_cpm_makespan": 2266.69,
+    "greedy_coupled_makespan": 2324.0,
+    "cpsat_makespan": 2155.0,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_wall_s": 0.03
+  },
+  "baseline_schedule": {
+    "mission_id": "small_c_multi_sample",
+    "makespan_s": 1800.0,
+    "items": [
+      {
+        "node_id": "sample_sc_s1_approach",
+        "agent": "sampler_1",
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      {
+        "node_id": "sc_scan_cell_0",
+        "agent": "rover_1",
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      {
+        "node_id": "sample_sc_s1_deploy_arm",
+        "agent": "sampler_1",
+        "start_s": 120.0,
+        "end_s": 180.0
+      },
+      {
+        "node_id": "sample_sc_s0_approach",
+        "agent": "sampler_1",
+        "start_s": 180.0,
+        "end_s": 300.0
+      },
+      {
+        "node_id": "sample_sc_s1_extract",
+        "agent": "sampler_1",
+        "start_s": 300.0,
+        "end_s": 900.0
+      },
+      {
+        "node_id": "sample_sc_s0_deploy_arm",
+        "agent": "sampler_1",
+        "start_s": 900.0,
+        "end_s": 960.0
+      },
+      {
+        "node_id": "sample_sc_s1_store",
+        "agent": "sampler_1",
+        "start_s": 960.0,
+        "end_s": 1080.0
+      },
+      {
+        "node_id": "sample_sc_s0_extract",
+        "agent": "sampler_1",
+        "start_s": 1080.0,
+        "end_s": 1680.0
+      },
+      {
+        "node_id": "sample_sc_s0_store",
+        "agent": "sampler_1",
+        "start_s": 1680.0,
+        "end_s": 1800.0
+      }
+    ]
+  }
+}

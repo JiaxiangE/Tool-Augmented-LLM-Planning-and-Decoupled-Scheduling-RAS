@@ -1,0 +1,43 @@
+# Pinned dependencies for the reference implementation.
+# Tested with Python 3.14. The pins below are the exact versions used in
+# the reported experiments; for installation on Python >= 3.11 with
+# slightly older numerics, relax the `==` pins to `>=` (numpy / pandas /
+# scipy / pytest only — torch and stable-baselines3 should stay pinned).
+
+# --- Numerics / ML ---------------------------------------------------------
+numpy==2.4.2
+scipy==1.17.1
+pandas==3.0.3
+scikit-learn==1.8.0
+
+# --- Plotting --------------------------------------------------------------
+matplotlib==3.10.9
+
+# --- Graphs / DAG manipulation --------------------------------------------
+networkx==3.6.1
+
+# --- Optimization (CP-SAT baseline) ---------------------------------------
+ortools==9.15.6755
+
+# --- RL stack (used by the learned scheduler) -----------------------------
+gymnasium==1.2.3
+stable_baselines3==2.8.0
+sb3_contrib==2.8.0
+
+# --- GNN stack (used by the learned scheduler) ----------------------------
+# Install torch first matching your CUDA / CPU choice (see README); the line
+# below pins the CPU build used in the paper.
+torch==2.12.0+cpu
+torch-geometric==2.7.0
+
+# --- LLM client (used by the planning layer) ------------------------------
+openai==2.36.0
+
+# --- Config + utilities ----------------------------------------------------
+PyYAML==6.0.3
+pydantic==2.13.4
+tqdm==4.67.3
+rich==15.0.0
+
+# --- Test runner -----------------------------------------------------------
+pytest==9.0.3

@@ -1,0 +1,4208 @@
+{
+  "taskgraph": {
+    "version": "0.1",
+    "mission_id": "large_b_mutex",
+    "nodes": [
+      {
+        "id": "lb_dense_cell_0",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_0"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          205.0,
+          205.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_1",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_1"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          215.0,
+          205.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_2",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_2"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          225.0,
+          205.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_3",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_3"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          235.0,
+          205.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_4",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 4
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_4"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          245.0,
+          205.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_5",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 5
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_5"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          255.0,
+          205.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_6",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 6
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_6"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          265.0,
+          205.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_7",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 7
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_7"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          275.0,
+          205.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_8",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_8"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          205.0,
+          215.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_9",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_9"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          215.0,
+          215.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_10",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_10"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          225.0,
+          215.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_11",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_11"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          235.0,
+          215.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_12",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 4
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_12"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          245.0,
+          215.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_13",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 5
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_13"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          255.0,
+          215.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_14",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 6
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_14"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          265.0,
+          215.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_15",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 7
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_15"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          275.0,
+          215.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_16",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 2,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_16"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          205.0,
+          225.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_17",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 2,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_17"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          215.0,
+          225.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_18",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 2,
+          "cell_col": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_18"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          225.0,
+          225.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_19",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 2,
+          "cell_col": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_19"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          235.0,
+          225.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_20",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 2,
+          "cell_col": 4
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_20"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          245.0,
+          225.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_21",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 2,
+          "cell_col": 5
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_21"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          255.0,
+          225.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_22",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 2,
+          "cell_col": 6
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_22"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          265.0,
+          225.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_23",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 2,
+          "cell_col": 7
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_23"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          275.0,
+          225.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_24",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 3,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_24"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          205.0,
+          235.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_25",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 3,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_25"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          215.0,
+          235.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_26",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 3,
+          "cell_col": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_26"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          225.0,
+          235.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_27",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 3,
+          "cell_col": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_27"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          235.0,
+          235.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_28",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 3,
+          "cell_col": 4
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_28"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          245.0,
+          235.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_29",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 3,
+          "cell_col": 5
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_29"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          255.0,
+          235.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_30",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 3,
+          "cell_col": 6
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_30"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          265.0,
+          235.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_31",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 3,
+          "cell_col": 7
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_31"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          275.0,
+          235.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_32",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 4,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_32"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          205.0,
+          245.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_33",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 4,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_33"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          215.0,
+          245.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_34",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 4,
+          "cell_col": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_34"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          225.0,
+          245.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_35",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 4,
+          "cell_col": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_35"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          235.0,
+          245.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_36",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 4,
+          "cell_col": 4
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_36"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          245.0,
+          245.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_37",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 4,
+          "cell_col": 5
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_37"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          255.0,
+          245.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_38",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 4,
+          "cell_col": 6
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_38"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          265.0,
+          245.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_39",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 4,
+          "cell_col": 7
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_39"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          275.0,
+          245.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_40",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 5,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_40"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          205.0,
+          255.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_41",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 5,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_41"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          215.0,
+          255.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_42",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 5,
+          "cell_col": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_42"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          225.0,
+          255.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_43",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 5,
+          "cell_col": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_43"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          235.0,
+          255.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_44",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 5,
+          "cell_col": 4
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_44"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          245.0,
+          255.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_45",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 5,
+          "cell_col": 5
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_45"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          255.0,
+          255.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_46",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 5,
+          "cell_col": 6
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_46"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          265.0,
+          255.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_47",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 5,
+          "cell_col": 7
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_47"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          275.0,
+          255.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_48",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 6,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_48"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          205.0,
+          265.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_49",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 6,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_49"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          215.0,
+          265.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_50",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 6,
+          "cell_col": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_50"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          225.0,
+          265.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_51",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 6,
+          "cell_col": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_51"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          235.0,
+          265.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_52",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 6,
+          "cell_col": 4
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_52"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          245.0,
+          265.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_53",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 6,
+          "cell_col": 5
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_53"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          255.0,
+          265.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_54",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 6,
+          "cell_col": 6
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_54"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          265.0,
+          265.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_55",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 6,
+          "cell_col": 7
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_55"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          275.0,
+          265.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_56",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 7,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_56"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          205.0,
+          275.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_57",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 7,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_57"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          215.0,
+          275.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_58",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 7,
+          "cell_col": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_58"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          225.0,
+          275.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_59",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 7,
+          "cell_col": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_59"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          235.0,
+          275.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_60",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 7,
+          "cell_col": 4
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_60"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          245.0,
+          275.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_61",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 7,
+          "cell_col": 5
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_61"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          255.0,
+          275.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_62",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 7,
+          "cell_col": 6
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_62"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          265.0,
+          275.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lb_dense_cell_63",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 7,
+          "cell_col": 7
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lb_dense_63"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          275.0,
+          275.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "sample_lb_sp0_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "lb_sp0",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_lb_dense_0"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          220.0,
+          220.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp0_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "lb_sp0",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          220.0,
+          220.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp0_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "lb_sp0",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          220.0,
+          220.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp0_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "lb_sp0",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_lb_sp0"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          220.0,
+          220.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp1_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "lb_sp1",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_lb_dense_8"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          230.0,
+          230.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp1_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "lb_sp1",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          230.0,
+          230.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp1_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "lb_sp1",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          230.0,
+          230.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp1_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "lb_sp1",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_lb_sp1"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          230.0,
+          230.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp2_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "lb_sp2",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_lb_dense_16"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          240.0,
+          240.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp2_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "lb_sp2",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          240.0,
+          240.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp2_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "lb_sp2",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          240.0,
+          240.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp2_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "lb_sp2",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_lb_sp2"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          240.0,
+          240.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp3_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "lb_sp3",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_lb_dense_24"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          250.0,
+          250.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp3_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "lb_sp3",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          250.0,
+          250.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp3_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "lb_sp3",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          250.0,
+          250.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp3_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "lb_sp3",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_lb_sp3"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          250.0,
+          250.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp4_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "lb_sp4",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_lb_dense_32"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          260.0,
+          260.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp4_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "lb_sp4",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          260.0,
+          260.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp4_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "lb_sp4",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          260.0,
+          260.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lb_sp4_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "lb_sp4",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_lb_sp4"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          260.0,
+          260.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      }
+    ],
+    "edges": [
+      {
+        "id": "lb_dense_order_0_1",
+        "type": "order",
+        "src": "lb_dense_cell_0",
+        "dst": "lb_dense_cell_1",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_1_2",
+        "type": "order",
+        "src": "lb_dense_cell_1",
+        "dst": "lb_dense_cell_2",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_2_3",
+        "type": "order",
+        "src": "lb_dense_cell_2",
+        "dst": "lb_dense_cell_3",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_3_4",
+        "type": "order",
+        "src": "lb_dense_cell_3",
+        "dst": "lb_dense_cell_4",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_4_5",
+        "type": "order",
+        "src": "lb_dense_cell_4",
+        "dst": "lb_dense_cell_5",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_5_6",
+        "type": "order",
+        "src": "lb_dense_cell_5",
+        "dst": "lb_dense_cell_6",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_6_7",
+        "type": "order",
+        "src": "lb_dense_cell_6",
+        "dst": "lb_dense_cell_7",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_7_8",
+        "type": "order",
+        "src": "lb_dense_cell_7",
+        "dst": "lb_dense_cell_8",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_8_9",
+        "type": "order",
+        "src": "lb_dense_cell_8",
+        "dst": "lb_dense_cell_9",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_9_10",
+        "type": "order",
+        "src": "lb_dense_cell_9",
+        "dst": "lb_dense_cell_10",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_10_11",
+        "type": "order",
+        "src": "lb_dense_cell_10",
+        "dst": "lb_dense_cell_11",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_11_12",
+        "type": "order",
+        "src": "lb_dense_cell_11",
+        "dst": "lb_dense_cell_12",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_12_13",
+        "type": "order",
+        "src": "lb_dense_cell_12",
+        "dst": "lb_dense_cell_13",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_13_14",
+        "type": "order",
+        "src": "lb_dense_cell_13",
+        "dst": "lb_dense_cell_14",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_14_15",
+        "type": "order",
+        "src": "lb_dense_cell_14",
+        "dst": "lb_dense_cell_15",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_15_16",
+        "type": "order",
+        "src": "lb_dense_cell_15",
+        "dst": "lb_dense_cell_16",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_16_17",
+        "type": "order",
+        "src": "lb_dense_cell_16",
+        "dst": "lb_dense_cell_17",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_17_18",
+        "type": "order",
+        "src": "lb_dense_cell_17",
+        "dst": "lb_dense_cell_18",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_18_19",
+        "type": "order",
+        "src": "lb_dense_cell_18",
+        "dst": "lb_dense_cell_19",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_19_20",
+        "type": "order",
+        "src": "lb_dense_cell_19",
+        "dst": "lb_dense_cell_20",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_20_21",
+        "type": "order",
+        "src": "lb_dense_cell_20",
+        "dst": "lb_dense_cell_21",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_21_22",
+        "type": "order",
+        "src": "lb_dense_cell_21",
+        "dst": "lb_dense_cell_22",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_22_23",
+        "type": "order",
+        "src": "lb_dense_cell_22",
+        "dst": "lb_dense_cell_23",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_23_24",
+        "type": "order",
+        "src": "lb_dense_cell_23",
+        "dst": "lb_dense_cell_24",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_24_25",
+        "type": "order",
+        "src": "lb_dense_cell_24",
+        "dst": "lb_dense_cell_25",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_25_26",
+        "type": "order",
+        "src": "lb_dense_cell_25",
+        "dst": "lb_dense_cell_26",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_26_27",
+        "type": "order",
+        "src": "lb_dense_cell_26",
+        "dst": "lb_dense_cell_27",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_27_28",
+        "type": "order",
+        "src": "lb_dense_cell_27",
+        "dst": "lb_dense_cell_28",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_28_29",
+        "type": "order",
+        "src": "lb_dense_cell_28",
+        "dst": "lb_dense_cell_29",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_29_30",
+        "type": "order",
+        "src": "lb_dense_cell_29",
+        "dst": "lb_dense_cell_30",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_30_31",
+        "type": "order",
+        "src": "lb_dense_cell_30",
+        "dst": "lb_dense_cell_31",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_31_32",
+        "type": "order",
+        "src": "lb_dense_cell_31",
+        "dst": "lb_dense_cell_32",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_32_33",
+        "type": "order",
+        "src": "lb_dense_cell_32",
+        "dst": "lb_dense_cell_33",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_33_34",
+        "type": "order",
+        "src": "lb_dense_cell_33",
+        "dst": "lb_dense_cell_34",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_34_35",
+        "type": "order",
+        "src": "lb_dense_cell_34",
+        "dst": "lb_dense_cell_35",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_35_36",
+        "type": "order",
+        "src": "lb_dense_cell_35",
+        "dst": "lb_dense_cell_36",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_36_37",
+        "type": "order",
+        "src": "lb_dense_cell_36",
+        "dst": "lb_dense_cell_37",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_37_38",
+        "type": "order",
+        "src": "lb_dense_cell_37",
+        "dst": "lb_dense_cell_38",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_38_39",
+        "type": "order",
+        "src": "lb_dense_cell_38",
+        "dst": "lb_dense_cell_39",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_39_40",
+        "type": "order",
+        "src": "lb_dense_cell_39",
+        "dst": "lb_dense_cell_40",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_40_41",
+        "type": "order",
+        "src": "lb_dense_cell_40",
+        "dst": "lb_dense_cell_41",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_41_42",
+        "type": "order",
+        "src": "lb_dense_cell_41",
+        "dst": "lb_dense_cell_42",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_42_43",
+        "type": "order",
+        "src": "lb_dense_cell_42",
+        "dst": "lb_dense_cell_43",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_43_44",
+        "type": "order",
+        "src": "lb_dense_cell_43",
+        "dst": "lb_dense_cell_44",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_44_45",
+        "type": "order",
+        "src": "lb_dense_cell_44",
+        "dst": "lb_dense_cell_45",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_45_46",
+        "type": "order",
+        "src": "lb_dense_cell_45",
+        "dst": "lb_dense_cell_46",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_46_47",
+        "type": "order",
+        "src": "lb_dense_cell_46",
+        "dst": "lb_dense_cell_47",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_47_48",
+        "type": "order",
+        "src": "lb_dense_cell_47",
+        "dst": "lb_dense_cell_48",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_48_49",
+        "type": "order",
+        "src": "lb_dense_cell_48",
+        "dst": "lb_dense_cell_49",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_49_50",
+        "type": "order",
+        "src": "lb_dense_cell_49",
+        "dst": "lb_dense_cell_50",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_50_51",
+        "type": "order",
+        "src": "lb_dense_cell_50",
+        "dst": "lb_dense_cell_51",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_51_52",
+        "type": "order",
+        "src": "lb_dense_cell_51",
+        "dst": "lb_dense_cell_52",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_52_53",
+        "type": "order",
+        "src": "lb_dense_cell_52",
+        "dst": "lb_dense_cell_53",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_53_54",
+        "type": "order",
+        "src": "lb_dense_cell_53",
+        "dst": "lb_dense_cell_54",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_54_55",
+        "type": "order",
+        "src": "lb_dense_cell_54",
+        "dst": "lb_dense_cell_55",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_55_56",
+        "type": "order",
+        "src": "lb_dense_cell_55",
+        "dst": "lb_dense_cell_56",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_56_57",
+        "type": "order",
+        "src": "lb_dense_cell_56",
+        "dst": "lb_dense_cell_57",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_57_58",
+        "type": "order",
+        "src": "lb_dense_cell_57",
+        "dst": "lb_dense_cell_58",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_58_59",
+        "type": "order",
+        "src": "lb_dense_cell_58",
+        "dst": "lb_dense_cell_59",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_59_60",
+        "type": "order",
+        "src": "lb_dense_cell_59",
+        "dst": "lb_dense_cell_60",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_60_61",
+        "type": "order",
+        "src": "lb_dense_cell_60",
+        "dst": "lb_dense_cell_61",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_61_62",
+        "type": "order",
+        "src": "lb_dense_cell_61",
+        "dst": "lb_dense_cell_62",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lb_dense_order_62_63",
+        "type": "order",
+        "src": "lb_dense_cell_62",
+        "dst": "lb_dense_cell_63",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp0_order_0_1",
+        "type": "order",
+        "src": "sample_lb_sp0_approach",
+        "dst": "sample_lb_sp0_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp0_order_1_2",
+        "type": "order",
+        "src": "sample_lb_sp0_deploy_arm",
+        "dst": "sample_lb_sp0_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp0_order_2_3",
+        "type": "order",
+        "src": "sample_lb_sp0_extract",
+        "dst": "sample_lb_sp0_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp1_order_0_1",
+        "type": "order",
+        "src": "sample_lb_sp1_approach",
+        "dst": "sample_lb_sp1_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp1_order_1_2",
+        "type": "order",
+        "src": "sample_lb_sp1_deploy_arm",
+        "dst": "sample_lb_sp1_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp1_order_2_3",
+        "type": "order",
+        "src": "sample_lb_sp1_extract",
+        "dst": "sample_lb_sp1_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp2_order_0_1",
+        "type": "order",
+        "src": "sample_lb_sp2_approach",
+        "dst": "sample_lb_sp2_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp2_order_1_2",
+        "type": "order",
+        "src": "sample_lb_sp2_deploy_arm",
+        "dst": "sample_lb_sp2_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp2_order_2_3",
+        "type": "order",
+        "src": "sample_lb_sp2_extract",
+        "dst": "sample_lb_sp2_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp3_order_0_1",
+        "type": "order",
+        "src": "sample_lb_sp3_approach",
+        "dst": "sample_lb_sp3_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp3_order_1_2",
+        "type": "order",
+        "src": "sample_lb_sp3_deploy_arm",
+        "dst": "sample_lb_sp3_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp3_order_2_3",
+        "type": "order",
+        "src": "sample_lb_sp3_extract",
+        "dst": "sample_lb_sp3_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp4_order_0_1",
+        "type": "order",
+        "src": "sample_lb_sp4_approach",
+        "dst": "sample_lb_sp4_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp4_order_1_2",
+        "type": "order",
+        "src": "sample_lb_sp4_deploy_arm",
+        "dst": "sample_lb_sp4_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lb_sp4_order_2_3",
+        "type": "order",
+        "src": "sample_lb_sp4_extract",
+        "dst": "sample_lb_sp4_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_0",
+        "type": "data",
+        "src": "lb_dense_cell_0",
+        "dst": "sample_lb_sp0_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_1",
+        "type": "data",
+        "src": "lb_dense_cell_8",
+        "dst": "sample_lb_sp1_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_2",
+        "type": "data",
+        "src": "lb_dense_cell_16",
+        "dst": "sample_lb_sp2_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_3",
+        "type": "data",
+        "src": "lb_dense_cell_24",
+        "dst": "sample_lb_sp3_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_4",
+        "type": "data",
+        "src": "lb_dense_cell_32",
+        "dst": "sample_lb_sp4_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      }
+    ],
+    "constraints": {
+      "min_battery_percent": null,
+      "max_concurrent_tasks_per_agent": 1,
+      "periodic": []
+    },
+    "metadata": {}
+  },
+  "metadata": {
+    "scale": "large",
+    "variant_description": "B: High contention (64-cell dense scan + 5 overlapping samples)",
+    "generated_by": "tool_library",
+    "node_count": 84,
+    "edge_count": 83,
+    "agent_count": 8,
+    "baseline_method": "greedy+CPM"
+  },
+  "baseline_sim_result": {
+    "makespan": 6529.78,
+    "task_completion_rate": 1.0,
+    "energy_consumption": {
+      "rover_1": 693.8535787036781,
+      "rover_2": 697.4311963355658,
+      "rover_3": 0.0,
+      "relay_1": 0.0,
+      "relay_2": 0.0,
+      "sampler_1": 264.8477631085025,
+      "sampler_2": 228.77669529663672,
+      "sampler_3": 195.84776310850248
+    },
+    "constraint_violations": [],
+    "comm_connectivity_rate": 1.0,
+    "bottleneck_tasks": [
+      "lb_dense_cell_0",
+      "lb_dense_cell_1",
+      "lb_dense_cell_2",
+      "lb_dense_cell_3",
+      "lb_dense_cell_4",
+      "lb_dense_cell_5",
+      "lb_dense_cell_6",
+      "lb_dense_cell_7",
+      "lb_dense_cell_8",
+      "lb_dense_cell_9",
+      "lb_dense_cell_10",
+      "lb_dense_cell_11",
+      "lb_dense_cell_12",
+      "lb_dense_cell_13",
+      "lb_dense_cell_14",
+      "lb_dense_cell_15",
+      "lb_dense_cell_16",
+      "lb_dense_cell_17",
+      "lb_dense_cell_18",
+      "lb_dense_cell_19",
+      "lb_dense_cell_20",
+      "lb_dense_cell_21",
+      "lb_dense_cell_22",
+      "lb_dense_cell_23",
+      "lb_dense_cell_24",
+      "lb_dense_cell_25",
+      "lb_dense_cell_26",
+      "lb_dense_cell_27",
+      "lb_dense_cell_28",
+      "lb_dense_cell_29",
+      "lb_dense_cell_30",
+      "lb_dense_cell_31",
+      "lb_dense_cell_32",
+      "lb_dense_cell_33",
+      "lb_dense_cell_34",
+      "lb_dense_cell_35",
+      "lb_dense_cell_36",
+      "lb_dense_cell_37",
+      "lb_dense_cell_38",
+      "lb_dense_cell_39",
+      "lb_dense_cell_40",
+      "lb_dense_cell_41",
+      "lb_dense_cell_42",
+      "lb_dense_cell_43",
+      "lb_dense_cell_44",
+      "lb_dense_cell_45",
+      "lb_dense_cell_46",
+      "lb_dense_cell_47",
+      "lb_dense_cell_48",
+      "lb_dense_cell_49",
+      "lb_dense_cell_50",
+      "lb_dense_cell_51",
+      "lb_dense_cell_52",
+      "lb_dense_cell_53",
+      "lb_dense_cell_54",
+      "lb_dense_cell_55",
+      "lb_dense_cell_56",
+      "lb_dense_cell_57",
+      "lb_dense_cell_58",
+      "lb_dense_cell_59",
+      "lb_dense_cell_60",
+      "lb_dense_cell_61",
+      "lb_dense_cell_62",
+      "lb_dense_cell_63"
+    ],
+    "completed_tasks": [
+      "lb_dense_cell_0",
+      "lb_dense_cell_1",
+      "sample_lb_sp0_approach",
+      "lb_dense_cell_2",
+      "sample_lb_sp0_deploy_arm",
+      "lb_dense_cell_3",
+      "lb_dense_cell_4",
+      "sample_lb_sp0_extract",
+      "lb_dense_cell_5",
+      "lb_dense_cell_6",
+      "lb_dense_cell_7",
+      "lb_dense_cell_8",
+      "lb_dense_cell_9",
+      "sample_lb_sp1_approach",
+      "lb_dense_cell_10",
+      "sample_lb_sp1_deploy_arm",
+      "lb_dense_cell_11",
+      "lb_dense_cell_12",
+      "sample_lb_sp1_extract",
+      "lb_dense_cell_13",
+      "lb_dense_cell_14",
+      "sample_lb_sp0_store",
+      "lb_dense_cell_15",
+      "lb_dense_cell_16",
+      "lb_dense_cell_17",
+      "sample_lb_sp2_approach",
+      "lb_dense_cell_18",
+      "lb_dense_cell_19",
+      "lb_dense_cell_20",
+      "lb_dense_cell_21",
+      "lb_dense_cell_22",
+      "sample_lb_sp1_store",
+      "lb_dense_cell_23",
+      "sample_lb_sp2_deploy_arm",
+      "lb_dense_cell_24",
+      "lb_dense_cell_25",
+      "sample_lb_sp2_extract",
+      "lb_dense_cell_26",
+      "lb_dense_cell_27",
+      "lb_dense_cell_28",
+      "lb_dense_cell_29",
+      "lb_dense_cell_30",
+      "lb_dense_cell_31",
+      "lb_dense_cell_32",
+      "lb_dense_cell_33",
+      "lb_dense_cell_34",
+      "lb_dense_cell_35",
+      "sample_lb_sp2_store",
+      "lb_dense_cell_36",
+      "lb_dense_cell_37",
+      "sample_lb_sp3_approach",
+      "lb_dense_cell_38",
+      "sample_lb_sp3_deploy_arm",
+      "lb_dense_cell_39",
+      "lb_dense_cell_40",
+      "sample_lb_sp3_extract",
+      "lb_dense_cell_41",
+      "lb_dense_cell_42",
+      "lb_dense_cell_43",
+      "lb_dense_cell_44",
+      "lb_dense_cell_45",
+      "lb_dense_cell_46",
+      "lb_dense_cell_47",
+      "lb_dense_cell_48",
+      "lb_dense_cell_49",
+      "lb_dense_cell_50",
+      "sample_lb_sp3_store",
+      "lb_dense_cell_51",
+      "lb_dense_cell_52",
+      "sample_lb_sp4_approach",
+      "lb_dense_cell_53",
+      "sample_lb_sp4_deploy_arm",
+      "lb_dense_cell_54",
+      "lb_dense_cell_55",
+      "sample_lb_sp4_extract",
+      "lb_dense_cell_56",
+      "lb_dense_cell_57",
+      "lb_dense_cell_58",
+      "lb_dense_cell_59",
+      "lb_dense_cell_60",
+      "lb_dense_cell_61",
+      "lb_dense_cell_62",
+      "lb_dense_cell_63",
+      "sample_lb_sp4_store"
+    ],
+    "failed_tasks": [],
+    "greedy_cpm_makespan": 6529.78,
+    "greedy_coupled_makespan": 6530.0,
+    "cpsat_makespan": null,
+    "cpsat_status": "UNSOLVED",
+    "cpsat_wall_s": 0.0
+  },
+  "baseline_schedule": {
+    "mission_id": "large_b_mutex",
+    "makespan_s": 4020.0,
+    "items": [
+      {
+        "node_id": "lb_dense_cell_0",
+        "agent": "rover_1",
+        "start_s": 0.0,
+        "end_s": 60.0
+      },
+      {
+        "node_id": "lb_dense_cell_1",
+        "agent": "rover_2",
+        "start_s": 60.0,
+        "end_s": 120.0
+      },
+      {
+        "node_id": "sample_lb_sp0_approach",
+        "agent": "sampler_1",
+        "start_s": 60.0,
+        "end_s": 180.0
+      },
+      {
+        "node_id": "lb_dense_cell_2",
+        "agent": "rover_1",
+        "start_s": 120.0,
+        "end_s": 180.0
+      },
+      {
+        "node_id": "sample_lb_sp0_deploy_arm",
+        "agent": "sampler_1",
+        "start_s": 180.0,
+        "end_s": 240.0
+      },
+      {
+        "node_id": "lb_dense_cell_3",
+        "agent": "rover_2",
+        "start_s": 180.0,
+        "end_s": 240.0
+      },
+      {
+        "node_id": "sample_lb_sp0_extract",
+        "agent": "sampler_1",
+        "start_s": 240.0,
+        "end_s": 840.0
+      },
+      {
+        "node_id": "lb_dense_cell_4",
+        "agent": "rover_1",
+        "start_s": 240.0,
+        "end_s": 300.0
+      },
+      {
+        "node_id": "sample_lb_sp0_store",
+        "agent": "sampler_1",
+        "start_s": 840.0,
+        "end_s": 960.0
+      },
+      {
+        "node_id": "lb_dense_cell_5",
+        "agent": "rover_2",
+        "start_s": 300.0,
+        "end_s": 360.0
+      },
+      {
+        "node_id": "lb_dense_cell_6",
+        "agent": "rover_1",
+        "start_s": 360.0,
+        "end_s": 420.0
+      },
+      {
+        "node_id": "lb_dense_cell_7",
+        "agent": "rover_2",
+        "start_s": 420.0,
+        "end_s": 480.0
+      },
+      {
+        "node_id": "lb_dense_cell_8",
+        "agent": "rover_1",
+        "start_s": 480.0,
+        "end_s": 540.0
+      },
+      {
+        "node_id": "lb_dense_cell_9",
+        "agent": "rover_2",
+        "start_s": 540.0,
+        "end_s": 600.0
+      },
+      {
+        "node_id": "sample_lb_sp1_approach",
+        "agent": "sampler_2",
+        "start_s": 540.0,
+        "end_s": 660.0
+      },
+      {
+        "node_id": "lb_dense_cell_10",
+        "agent": "rover_1",
+        "start_s": 600.0,
+        "end_s": 660.0
+      },
+      {
+        "node_id": "sample_lb_sp1_deploy_arm",
+        "agent": "sampler_2",
+        "start_s": 660.0,
+        "end_s": 720.0
+      },
+      {
+        "node_id": "lb_dense_cell_11",
+        "agent": "rover_2",
+        "start_s": 660.0,
+        "end_s": 720.0
+      },
+      {
+        "node_id": "sample_lb_sp1_extract",
+        "agent": "sampler_2",
+        "start_s": 720.0,
+        "end_s": 1320.0
+      },
+      {
+        "node_id": "lb_dense_cell_12",
+        "agent": "rover_1",
+        "start_s": 720.0,
+        "end_s": 780.0
+      },
+      {
+        "node_id": "sample_lb_sp1_store",
+        "agent": "sampler_1",
+        "start_s": 1320.0,
+        "end_s": 1440.0
+      },
+      {
+        "node_id": "lb_dense_cell_13",
+        "agent": "rover_2",
+        "start_s": 780.0,
+        "end_s": 840.0
+      },
+      {
+        "node_id": "lb_dense_cell_14",
+        "agent": "rover_1",
+        "start_s": 840.0,
+        "end_s": 900.0
+      },
+      {
+        "node_id": "lb_dense_cell_15",
+        "agent": "rover_2",
+        "start_s": 900.0,
+        "end_s": 960.0
+      },
+      {
+        "node_id": "lb_dense_cell_16",
+        "agent": "rover_1",
+        "start_s": 960.0,
+        "end_s": 1020.0
+      },
+      {
+        "node_id": "lb_dense_cell_17",
+        "agent": "rover_2",
+        "start_s": 1020.0,
+        "end_s": 1080.0
+      },
+      {
+        "node_id": "sample_lb_sp2_approach",
+        "agent": "sampler_3",
+        "start_s": 1020.0,
+        "end_s": 1140.0
+      },
+      {
+        "node_id": "lb_dense_cell_18",
+        "agent": "rover_1",
+        "start_s": 1080.0,
+        "end_s": 1140.0
+      },
+      {
+        "node_id": "sample_lb_sp2_deploy_arm",
+        "agent": "sampler_1",
+        "start_s": 1440.0,
+        "end_s": 1500.0
+      },
+      {
+        "node_id": "lb_dense_cell_19",
+        "agent": "rover_2",
+        "start_s": 1140.0,
+        "end_s": 1200.0
+      },
+      {
+        "node_id": "sample_lb_sp2_extract",
+        "agent": "sampler_1",
+        "start_s": 1500.0,
+        "end_s": 2100.0
+      },
+      {
+        "node_id": "lb_dense_cell_20",
+        "agent": "rover_1",
+        "start_s": 1200.0,
+        "end_s": 1260.0
+      },
+      {
+        "node_id": "sample_lb_sp2_store",
+        "agent": "sampler_3",
+        "start_s": 2100.0,
+        "end_s": 2220.0
+      },
+      {
+        "node_id": "lb_dense_cell_21",
+        "agent": "rover_2",
+        "start_s": 1260.0,
+        "end_s": 1320.0
+      },
+      {
+        "node_id": "lb_dense_cell_22",
+        "agent": "rover_1",
+        "start_s": 1320.0,
+        "end_s": 1380.0
+      },
+      {
+        "node_id": "lb_dense_cell_23",
+        "agent": "rover_2",
+        "start_s": 1380.0,
+        "end_s": 1440.0
+      },
+      {
+        "node_id": "lb_dense_cell_24",
+        "agent": "rover_1",
+        "start_s": 1440.0,
+        "end_s": 1500.0
+      },
+      {
+        "node_id": "lb_dense_cell_25",
+        "agent": "rover_2",
+        "start_s": 1500.0,
+        "end_s": 1560.0
+      },
+      {
+        "node_id": "sample_lb_sp3_approach",
+        "agent": "sampler_3",
+        "start_s": 2220.0,
+        "end_s": 2340.0
+      },
+      {
+        "node_id": "lb_dense_cell_26",
+        "agent": "rover_1",
+        "start_s": 1560.0,
+        "end_s": 1620.0
+      },
+      {
+        "node_id": "sample_lb_sp3_deploy_arm",
+        "agent": "sampler_2",
+        "start_s": 2340.0,
+        "end_s": 2400.0
+      },
+      {
+        "node_id": "lb_dense_cell_27",
+        "agent": "rover_2",
+        "start_s": 1620.0,
+        "end_s": 1680.0
+      },
+      {
+        "node_id": "sample_lb_sp3_extract",
+        "agent": "sampler_2",
+        "start_s": 2400.0,
+        "end_s": 3000.0
+      },
+      {
+        "node_id": "lb_dense_cell_28",
+        "agent": "rover_1",
+        "start_s": 1680.0,
+        "end_s": 1740.0
+      },
+      {
+        "node_id": "sample_lb_sp3_store",
+        "agent": "sampler_3",
+        "start_s": 3000.0,
+        "end_s": 3120.0
+      },
+      {
+        "node_id": "lb_dense_cell_29",
+        "agent": "rover_2",
+        "start_s": 1740.0,
+        "end_s": 1800.0
+      },
+      {
+        "node_id": "lb_dense_cell_30",
+        "agent": "rover_1",
+        "start_s": 1800.0,
+        "end_s": 1860.0
+      },
+      {
+        "node_id": "lb_dense_cell_31",
+        "agent": "rover_2",
+        "start_s": 1860.0,
+        "end_s": 1920.0
+      },
+      {
+        "node_id": "lb_dense_cell_32",
+        "agent": "rover_1",
+        "start_s": 1920.0,
+        "end_s": 1980.0
+      },
+      {
+        "node_id": "lb_dense_cell_33",
+        "agent": "rover_2",
+        "start_s": 1980.0,
+        "end_s": 2040.0
+      },
+      {
+        "node_id": "sample_lb_sp4_approach",
+        "agent": "sampler_3",
+        "start_s": 3120.0,
+        "end_s": 3240.0
+      },
+      {
+        "node_id": "lb_dense_cell_34",
+        "agent": "rover_1",
+        "start_s": 2040.0,
+        "end_s": 2100.0
+      },
+      {
+        "node_id": "sample_lb_sp4_deploy_arm",
+        "agent": "sampler_1",
+        "start_s": 3240.0,
+        "end_s": 3300.0
+      },
+      {
+        "node_id": "lb_dense_cell_35",
+        "agent": "rover_2",
+        "start_s": 2100.0,
+        "end_s": 2160.0
+      },
+      {
+        "node_id": "sample_lb_sp4_extract",
+        "agent": "sampler_1",
+        "start_s": 3300.0,
+        "end_s": 3900.0
+      },
+      {
+        "node_id": "lb_dense_cell_36",
+        "agent": "rover_1",
+        "start_s": 2160.0,
+        "end_s": 2220.0
+      },
+      {
+        "node_id": "sample_lb_sp4_store",
+        "agent": "sampler_3",
+        "start_s": 3900.0,
+        "end_s": 4020.0
+      },
+      {
+        "node_id": "lb_dense_cell_37",
+        "agent": "rover_2",
+        "start_s": 2220.0,
+        "end_s": 2280.0
+      },
+      {
+        "node_id": "lb_dense_cell_38",
+        "agent": "rover_1",
+        "start_s": 2280.0,
+        "end_s": 2340.0
+      },
+      {
+        "node_id": "lb_dense_cell_39",
+        "agent": "rover_2",
+        "start_s": 2340.0,
+        "end_s": 2400.0
+      },
+      {
+        "node_id": "lb_dense_cell_40",
+        "agent": "rover_1",
+        "start_s": 2400.0,
+        "end_s": 2460.0
+      },
+      {
+        "node_id": "lb_dense_cell_41",
+        "agent": "rover_2",
+        "start_s": 2460.0,
+        "end_s": 2520.0
+      },
+      {
+        "node_id": "lb_dense_cell_42",
+        "agent": "rover_1",
+        "start_s": 2520.0,
+        "end_s": 2580.0
+      },
+      {
+        "node_id": "lb_dense_cell_43",
+        "agent": "rover_2",
+        "start_s": 2580.0,
+        "end_s": 2640.0
+      },
+      {
+        "node_id": "lb_dense_cell_44",
+        "agent": "rover_1",
+        "start_s": 2640.0,
+        "end_s": 2700.0
+      },
+      {
+        "node_id": "lb_dense_cell_45",
+        "agent": "rover_2",
+        "start_s": 2700.0,
+        "end_s": 2760.0
+      },
+      {
+        "node_id": "lb_dense_cell_46",
+        "agent": "rover_1",
+        "start_s": 2760.0,
+        "end_s": 2820.0
+      },
+      {
+        "node_id": "lb_dense_cell_47",
+        "agent": "rover_2",
+        "start_s": 2820.0,
+        "end_s": 2880.0
+      },
+      {
+        "node_id": "lb_dense_cell_48",
+        "agent": "rover_1",
+        "start_s": 2880.0,
+        "end_s": 2940.0
+      },
+      {
+        "node_id": "lb_dense_cell_49",
+        "agent": "rover_2",
+        "start_s": 2940.0,
+        "end_s": 3000.0
+      },
+      {
+        "node_id": "lb_dense_cell_50",
+        "agent": "rover_1",
+        "start_s": 3000.0,
+        "end_s": 3060.0
+      },
+      {
+        "node_id": "lb_dense_cell_51",
+        "agent": "rover_2",
+        "start_s": 3060.0,
+        "end_s": 3120.0
+      },
+      {
+        "node_id": "lb_dense_cell_52",
+        "agent": "rover_1",
+        "start_s": 3120.0,
+        "end_s": 3180.0
+      },
+      {
+        "node_id": "lb_dense_cell_53",
+        "agent": "rover_2",
+        "start_s": 3180.0,
+        "end_s": 3240.0
+      },
+      {
+        "node_id": "lb_dense_cell_54",
+        "agent": "rover_1",
+        "start_s": 3240.0,
+        "end_s": 3300.0
+      },
+      {
+        "node_id": "lb_dense_cell_55",
+        "agent": "rover_2",
+        "start_s": 3300.0,
+        "end_s": 3360.0
+      },
+      {
+        "node_id": "lb_dense_cell_56",
+        "agent": "rover_1",
+        "start_s": 3360.0,
+        "end_s": 3420.0
+      },
+      {
+        "node_id": "lb_dense_cell_57",
+        "agent": "rover_2",
+        "start_s": 3420.0,
+        "end_s": 3480.0
+      },
+      {
+        "node_id": "lb_dense_cell_58",
+        "agent": "rover_1",
+        "start_s": 3480.0,
+        "end_s": 3540.0
+      },
+      {
+        "node_id": "lb_dense_cell_59",
+        "agent": "rover_2",
+        "start_s": 3540.0,
+        "end_s": 3600.0
+      },
+      {
+        "node_id": "lb_dense_cell_60",
+        "agent": "rover_1",
+        "start_s": 3600.0,
+        "end_s": 3660.0
+      },
+      {
+        "node_id": "lb_dense_cell_61",
+        "agent": "rover_2",
+        "start_s": 3660.0,
+        "end_s": 3720.0
+      },
+      {
+        "node_id": "lb_dense_cell_62",
+        "agent": "rover_1",
+        "start_s": 3720.0,
+        "end_s": 3780.0
+      },
+      {
+        "node_id": "lb_dense_cell_63",
+        "agent": "rover_2",
+        "start_s": 3780.0,
+        "end_s": 3840.0
+      }
+    ]
+  }
+}

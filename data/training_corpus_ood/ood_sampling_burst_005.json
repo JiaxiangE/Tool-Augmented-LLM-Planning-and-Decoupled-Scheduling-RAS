@@ -1,0 +1,4249 @@
+{
+  "taskgraph": {
+    "version": "0.1",
+    "mission_id": "ood_sampling_burst_005",
+    "nodes": [
+      {
+        "id": "sb_relay_000",
+        "op_type": "DeployRelay",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1493.9,
+          590.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_relay_001",
+        "op_type": "DeployRelay",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1002.8,
+          198.2,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_relay_002",
+        "op_type": "DeployRelay",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1412.7,
+          113.5,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_relay_003",
+        "op_type": "DeployRelay",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          336.7,
+          498.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_relay_004",
+        "op_type": "DeployRelay",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          873.0,
+          651.1,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_000",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1207.7,
+          1148.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_001",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1350.6,
+          979.0,
+          0.0
+        ],
+        "estimated_duration_s": 81.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_002",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          657.9,
+          465.6,
+          0.0
+        ],
+        "estimated_duration_s": 84.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_003",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          719.7,
+          403.3,
+          0.0
+        ],
+        "estimated_duration_s": 77.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_004",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          663.8,
+          857.4,
+          0.0
+        ],
+        "estimated_duration_s": 91.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_005",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1436.3,
+          1381.5,
+          0.0
+        ],
+        "estimated_duration_s": 94.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_006",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          846.5,
+          794.9,
+          0.0
+        ],
+        "estimated_duration_s": 115.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_007",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1359.2,
+          450.9,
+          0.0
+        ],
+        "estimated_duration_s": 134.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_008",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          67.1,
+          1405.6,
+          0.0
+        ],
+        "estimated_duration_s": 75.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_009",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          61.9,
+          1221.1,
+          0.0
+        ],
+        "estimated_duration_s": 77.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_010",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          457.3,
+          234.1,
+          0.0
+        ],
+        "estimated_duration_s": 109.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_011",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          548.1,
+          1466.1,
+          0.0
+        ],
+        "estimated_duration_s": 93.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_012",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          267.5,
+          481.3,
+          0.0
+        ],
+        "estimated_duration_s": 106.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_013",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1471.2,
+          121.6,
+          0.0
+        ],
+        "estimated_duration_s": 92.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_014",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          663.2,
+          1181.9,
+          0.0
+        ],
+        "estimated_duration_s": 72.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_015",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          687.1,
+          1241.5,
+          0.0
+        ],
+        "estimated_duration_s": 82.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_016",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          858.1,
+          1447.3,
+          0.0
+        ],
+        "estimated_duration_s": 129.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_017",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          332.7,
+          162.9,
+          0.0
+        ],
+        "estimated_duration_s": 131.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_018",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          593.7,
+          1380.0,
+          0.0
+        ],
+        "estimated_duration_s": 114.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_019",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          737.5,
+          320.5,
+          0.0
+        ],
+        "estimated_duration_s": 128.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_020",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1454.8,
+          516.9,
+          0.0
+        ],
+        "estimated_duration_s": 81.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_021",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1222.0,
+          83.3,
+          0.0
+        ],
+        "estimated_duration_s": 94.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_022",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1429.0,
+          924.5,
+          0.0
+        ],
+        "estimated_duration_s": 126.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_023",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          241.6,
+          933.1,
+          0.0
+        ],
+        "estimated_duration_s": 133.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_024",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          601.1,
+          854.7,
+          0.0
+        ],
+        "estimated_duration_s": 101.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_025",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          851.0,
+          647.2,
+          0.0
+        ],
+        "estimated_duration_s": 108.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_026",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1236.2,
+          380.2,
+          0.0
+        ],
+        "estimated_duration_s": 117.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_027",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          732.7,
+          664.4,
+          0.0
+        ],
+        "estimated_duration_s": 138.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_028",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          111.8,
+          63.3,
+          0.0
+        ],
+        "estimated_duration_s": 70.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_029",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          311.0,
+          858.8,
+          0.0
+        ],
+        "estimated_duration_s": 67.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_030",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1400.7,
+          1172.5,
+          0.0
+        ],
+        "estimated_duration_s": 81.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_expl_031",
+        "op_type": "ExploreCell",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          831.1,
+          1424.8,
+          0.0
+        ],
+        "estimated_duration_s": 132.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_000",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          207.7,
+          1162.6,
+          0.0
+        ],
+        "estimated_duration_s": 128.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_001",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          772.4,
+          1118.3,
+          0.0
+        ],
+        "estimated_duration_s": 128.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_002",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1180.4,
+          237.0,
+          0.0
+        ],
+        "estimated_duration_s": 97.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_003",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1410.4,
+          303.0,
+          0.0
+        ],
+        "estimated_duration_s": 171.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_004",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          946.2,
+          600.8,
+          0.0
+        ],
+        "estimated_duration_s": 92.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_005",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1080.8,
+          236.1,
+          0.0
+        ],
+        "estimated_duration_s": 196.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_006",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          821.9,
+          1465.1,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_007",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1283.1,
+          281.5,
+          0.0
+        ],
+        "estimated_duration_s": 189.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_008",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          973.1,
+          1149.7,
+          0.0
+        ],
+        "estimated_duration_s": 178.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_009",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          782.4,
+          170.9,
+          0.0
+        ],
+        "estimated_duration_s": 104.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_010",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          530.8,
+          1169.3,
+          0.0
+        ],
+        "estimated_duration_s": 116.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_011",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          145.5,
+          1162.6,
+          0.0
+        ],
+        "estimated_duration_s": 125.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_012",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          200.8,
+          238.3,
+          0.0
+        ],
+        "estimated_duration_s": 118.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_013",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1253.0,
+          395.4,
+          0.0
+        ],
+        "estimated_duration_s": 154.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_014",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          803.5,
+          891.0,
+          0.0
+        ],
+        "estimated_duration_s": 133.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_015",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1413.0,
+          898.9,
+          0.0
+        ],
+        "estimated_duration_s": 133.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_016",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          628.4,
+          561.9,
+          0.0
+        ],
+        "estimated_duration_s": 146.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_017",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          800.9,
+          634.3,
+          0.0
+        ],
+        "estimated_duration_s": 111.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_018",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          445.2,
+          579.2,
+          0.0
+        ],
+        "estimated_duration_s": 171.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_019",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1288.6,
+          384.8,
+          0.0
+        ],
+        "estimated_duration_s": 156.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_020",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          262.5,
+          1086.3,
+          0.0
+        ],
+        "estimated_duration_s": 182.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_021",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          337.5,
+          95.6,
+          0.0
+        ],
+        "estimated_duration_s": 165.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_022",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1281.4,
+          1408.2,
+          0.0
+        ],
+        "estimated_duration_s": 198.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_023",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          493.3,
+          478.1,
+          0.0
+        ],
+        "estimated_duration_s": 94.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_024",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1471.6,
+          96.8,
+          0.0
+        ],
+        "estimated_duration_s": 158.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_025",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          811.3,
+          1319.0,
+          0.0
+        ],
+        "estimated_duration_s": 174.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_026",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          476.1,
+          1133.3,
+          0.0
+        ],
+        "estimated_duration_s": 96.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_027",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1003.1,
+          823.3,
+          0.0
+        ],
+        "estimated_duration_s": 176.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_028",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1288.5,
+          814.2,
+          0.0
+        ],
+        "estimated_duration_s": 119.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_029",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          153.7,
+          669.1,
+          0.0
+        ],
+        "estimated_duration_s": 115.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_030",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          726.0,
+          716.6,
+          0.0
+        ],
+        "estimated_duration_s": 112.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_031",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          953.6,
+          358.6,
+          0.0
+        ],
+        "estimated_duration_s": 146.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_032",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          402.4,
+          1156.4,
+          0.0
+        ],
+        "estimated_duration_s": 134.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_033",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          539.0,
+          1233.3,
+          0.0
+        ],
+        "estimated_duration_s": 194.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_034",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          136.0,
+          32.9,
+          0.0
+        ],
+        "estimated_duration_s": 184.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_035",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1095.1,
+          1055.9,
+          0.0
+        ],
+        "estimated_duration_s": 136.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_036",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          364.5,
+          683.2,
+          0.0
+        ],
+        "estimated_duration_s": 121.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_037",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1481.4,
+          87.2,
+          0.0
+        ],
+        "estimated_duration_s": 95.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_038",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          289.8,
+          627.7,
+          0.0
+        ],
+        "estimated_duration_s": 137.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_039",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          798.2,
+          97.0,
+          0.0
+        ],
+        "estimated_duration_s": 115.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_040",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          283.5,
+          282.4,
+          0.0
+        ],
+        "estimated_duration_s": 166.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_041",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          521.8,
+          795.9,
+          0.0
+        ],
+        "estimated_duration_s": 91.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_042",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          339.3,
+          1386.1,
+          0.0
+        ],
+        "estimated_duration_s": 102.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_043",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1457.6,
+          461.2,
+          0.0
+        ],
+        "estimated_duration_s": 175.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_044",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1427.3,
+          1211.7,
+          0.0
+        ],
+        "estimated_duration_s": 128.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_045",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          0.6,
+          57.6,
+          0.0
+        ],
+        "estimated_duration_s": 182.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_046",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          917.4,
+          941.1,
+          0.0
+        ],
+        "estimated_duration_s": 141.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_047",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          569.8,
+          1294.9,
+          0.0
+        ],
+        "estimated_duration_s": 157.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_048",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          79.5,
+          1115.9,
+          0.0
+        ],
+        "estimated_duration_s": 99.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_049",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1177.3,
+          519.9,
+          0.0
+        ],
+        "estimated_duration_s": 121.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_050",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          416.1,
+          331.0,
+          0.0
+        ],
+        "estimated_duration_s": 143.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_051",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          528.8,
+          546.7,
+          0.0
+        ],
+        "estimated_duration_s": 200.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_052",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1476.0,
+          204.7,
+          0.0
+        ],
+        "estimated_duration_s": 173.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_053",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          581.2,
+          868.5,
+          0.0
+        ],
+        "estimated_duration_s": 148.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_054",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          816.1,
+          1121.0,
+          0.0
+        ],
+        "estimated_duration_s": 104.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_055",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          867.4,
+          1319.6,
+          0.0
+        ],
+        "estimated_duration_s": 98.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_056",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          458.0,
+          894.5,
+          0.0
+        ],
+        "estimated_duration_s": 107.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_057",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          393.9,
+          34.6,
+          0.0
+        ],
+        "estimated_duration_s": 156.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_058",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          820.5,
+          61.0,
+          0.0
+        ],
+        "estimated_duration_s": 172.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_059",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1210.4,
+          202.0,
+          0.0
+        ],
+        "estimated_duration_s": 141.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_060",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          579.6,
+          950.5,
+          0.0
+        ],
+        "estimated_duration_s": 184.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_061",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          140.7,
+          421.8,
+          0.0
+        ],
+        "estimated_duration_s": 109.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_062",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          933.6,
+          90.4,
+          0.0
+        ],
+        "estimated_duration_s": 131.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_063",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          161.5,
+          1309.0,
+          0.0
+        ],
+        "estimated_duration_s": 100.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_064",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1021.2,
+          284.3,
+          0.0
+        ],
+        "estimated_duration_s": 187.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_065",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          755.8,
+          1316.6,
+          0.0
+        ],
+        "estimated_duration_s": 103.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_066",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1218.5,
+          1040.5,
+          0.0
+        ],
+        "estimated_duration_s": 149.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_067",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1186.4,
+          766.0,
+          0.0
+        ],
+        "estimated_duration_s": 196.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_068",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          752.8,
+          879.5,
+          0.0
+        ],
+        "estimated_duration_s": 103.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_069",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1376.0,
+          628.4,
+          0.0
+        ],
+        "estimated_duration_s": 160.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_070",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1368.8,
+          726.1,
+          0.0
+        ],
+        "estimated_duration_s": 198.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_071",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1153.4,
+          971.5,
+          0.0
+        ],
+        "estimated_duration_s": 191.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_072",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1452.8,
+          249.0,
+          0.0
+        ],
+        "estimated_duration_s": 148.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_073",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          588.5,
+          405.1,
+          0.0
+        ],
+        "estimated_duration_s": 113.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_074",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1305.1,
+          415.1,
+          0.0
+        ],
+        "estimated_duration_s": 121.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_075",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          960.4,
+          450.8,
+          0.0
+        ],
+        "estimated_duration_s": 95.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      },
+      {
+        "id": "sb_samp_076",
+        "op_type": "Extract",
+        "params": {},
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          1348.0,
+          1069.8,
+          0.0
+        ],
+        "estimated_duration_s": 200.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "ood_generator"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e_0",
+        "type": "order",
+        "src": "sb_relay_000",
+        "dst": "sb_relay_001",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_1",
+        "type": "order",
+        "src": "sb_relay_001",
+        "dst": "sb_relay_002",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_2",
+        "type": "order",
+        "src": "sb_relay_002",
+        "dst": "sb_relay_003",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_3",
+        "type": "order",
+        "src": "sb_relay_003",
+        "dst": "sb_relay_004",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_4",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_000",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_5",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_001",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_6",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_002",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_7",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_003",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_8",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_004",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_9",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_005",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_10",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_006",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_11",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_007",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_12",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_008",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_13",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_009",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_14",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_010",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_15",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_011",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_16",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_012",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_17",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_013",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_18",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_014",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_19",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_015",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_20",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_016",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_21",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_017",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_22",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_018",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_23",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_019",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_24",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_020",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_25",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_021",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_26",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_022",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_27",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_023",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_28",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_024",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_29",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_025",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_30",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_026",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_31",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_027",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_32",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_028",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_33",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_029",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_34",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_030",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_35",
+        "type": "order",
+        "src": "sb_relay_004",
+        "dst": "sb_expl_031",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_36",
+        "type": "data",
+        "src": "sb_expl_011",
+        "dst": "sb_samp_000",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_37",
+        "type": "data",
+        "src": "sb_expl_022",
+        "dst": "sb_samp_001",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_38",
+        "type": "data",
+        "src": "sb_expl_006",
+        "dst": "sb_samp_002",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_39",
+        "type": "data",
+        "src": "sb_expl_015",
+        "dst": "sb_samp_003",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_40",
+        "type": "data",
+        "src": "sb_expl_004",
+        "dst": "sb_samp_004",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_41",
+        "type": "data",
+        "src": "sb_expl_016",
+        "dst": "sb_samp_005",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_42",
+        "type": "data",
+        "src": "sb_expl_003",
+        "dst": "sb_samp_006",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_43",
+        "type": "data",
+        "src": "sb_expl_004",
+        "dst": "sb_samp_007",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_44",
+        "type": "data",
+        "src": "sb_expl_018",
+        "dst": "sb_samp_008",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_45",
+        "type": "data",
+        "src": "sb_expl_013",
+        "dst": "sb_samp_009",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_46",
+        "type": "data",
+        "src": "sb_expl_002",
+        "dst": "sb_samp_010",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_47",
+        "type": "data",
+        "src": "sb_expl_004",
+        "dst": "sb_samp_011",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_48",
+        "type": "data",
+        "src": "sb_expl_003",
+        "dst": "sb_samp_012",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_49",
+        "type": "data",
+        "src": "sb_expl_007",
+        "dst": "sb_samp_013",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_50",
+        "type": "data",
+        "src": "sb_expl_019",
+        "dst": "sb_samp_014",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_51",
+        "type": "data",
+        "src": "sb_expl_028",
+        "dst": "sb_samp_015",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_52",
+        "type": "data",
+        "src": "sb_expl_004",
+        "dst": "sb_samp_016",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_53",
+        "type": "data",
+        "src": "sb_expl_008",
+        "dst": "sb_samp_017",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_54",
+        "type": "data",
+        "src": "sb_expl_006",
+        "dst": "sb_samp_018",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_55",
+        "type": "data",
+        "src": "sb_expl_017",
+        "dst": "sb_samp_019",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_56",
+        "type": "data",
+        "src": "sb_expl_000",
+        "dst": "sb_samp_020",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_57",
+        "type": "data",
+        "src": "sb_expl_017",
+        "dst": "sb_samp_021",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_58",
+        "type": "data",
+        "src": "sb_expl_026",
+        "dst": "sb_samp_022",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_59",
+        "type": "data",
+        "src": "sb_expl_003",
+        "dst": "sb_samp_023",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_60",
+        "type": "data",
+        "src": "sb_expl_018",
+        "dst": "sb_samp_024",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_61",
+        "type": "data",
+        "src": "sb_expl_014",
+        "dst": "sb_samp_025",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_62",
+        "type": "data",
+        "src": "sb_expl_002",
+        "dst": "sb_samp_026",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_63",
+        "type": "data",
+        "src": "sb_expl_021",
+        "dst": "sb_samp_027",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_64",
+        "type": "data",
+        "src": "sb_expl_001",
+        "dst": "sb_samp_028",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_65",
+        "type": "data",
+        "src": "sb_expl_025",
+        "dst": "sb_samp_029",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_66",
+        "type": "data",
+        "src": "sb_expl_006",
+        "dst": "sb_samp_030",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_67",
+        "type": "data",
+        "src": "sb_expl_014",
+        "dst": "sb_samp_031",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_68",
+        "type": "data",
+        "src": "sb_expl_004",
+        "dst": "sb_samp_032",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_69",
+        "type": "data",
+        "src": "sb_expl_007",
+        "dst": "sb_samp_033",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_70",
+        "type": "data",
+        "src": "sb_expl_014",
+        "dst": "sb_samp_034",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_71",
+        "type": "data",
+        "src": "sb_expl_017",
+        "dst": "sb_samp_035",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_72",
+        "type": "data",
+        "src": "sb_expl_002",
+        "dst": "sb_samp_036",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_73",
+        "type": "data",
+        "src": "sb_expl_001",
+        "dst": "sb_samp_037",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_74",
+        "type": "data",
+        "src": "sb_expl_005",
+        "dst": "sb_samp_038",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_75",
+        "type": "data",
+        "src": "sb_expl_004",
+        "dst": "sb_samp_039",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_76",
+        "type": "data",
+        "src": "sb_expl_020",
+        "dst": "sb_samp_040",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_77",
+        "type": "data",
+        "src": "sb_expl_025",
+        "dst": "sb_samp_041",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_78",
+        "type": "data",
+        "src": "sb_expl_009",
+        "dst": "sb_samp_042",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_79",
+        "type": "data",
+        "src": "sb_expl_024",
+        "dst": "sb_samp_043",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_80",
+        "type": "data",
+        "src": "sb_expl_028",
+        "dst": "sb_samp_044",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_81",
+        "type": "data",
+        "src": "sb_expl_011",
+        "dst": "sb_samp_045",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_82",
+        "type": "data",
+        "src": "sb_expl_018",
+        "dst": "sb_samp_046",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_83",
+        "type": "data",
+        "src": "sb_expl_012",
+        "dst": "sb_samp_047",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_84",
+        "type": "data",
+        "src": "sb_expl_010",
+        "dst": "sb_samp_048",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_85",
+        "type": "data",
+        "src": "sb_expl_018",
+        "dst": "sb_samp_049",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_86",
+        "type": "data",
+        "src": "sb_expl_021",
+        "dst": "sb_samp_050",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_87",
+        "type": "data",
+        "src": "sb_expl_020",
+        "dst": "sb_samp_051",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_88",
+        "type": "data",
+        "src": "sb_expl_010",
+        "dst": "sb_samp_052",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_89",
+        "type": "data",
+        "src": "sb_expl_018",
+        "dst": "sb_samp_053",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_90",
+        "type": "data",
+        "src": "sb_expl_012",
+        "dst": "sb_samp_054",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_91",
+        "type": "data",
+        "src": "sb_expl_002",
+        "dst": "sb_samp_055",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_92",
+        "type": "data",
+        "src": "sb_expl_013",
+        "dst": "sb_samp_056",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_93",
+        "type": "data",
+        "src": "sb_expl_004",
+        "dst": "sb_samp_057",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_94",
+        "type": "data",
+        "src": "sb_expl_018",
+        "dst": "sb_samp_058",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_95",
+        "type": "data",
+        "src": "sb_expl_027",
+        "dst": "sb_samp_059",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_96",
+        "type": "data",
+        "src": "sb_expl_004",
+        "dst": "sb_samp_060",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_97",
+        "type": "data",
+        "src": "sb_expl_010",
+        "dst": "sb_samp_061",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_98",
+        "type": "data",
+        "src": "sb_expl_027",
+        "dst": "sb_samp_062",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_99",
+        "type": "data",
+        "src": "sb_expl_013",
+        "dst": "sb_samp_063",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_100",
+        "type": "data",
+        "src": "sb_expl_024",
+        "dst": "sb_samp_064",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_101",
+        "type": "data",
+        "src": "sb_expl_016",
+        "dst": "sb_samp_065",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_102",
+        "type": "data",
+        "src": "sb_expl_005",
+        "dst": "sb_samp_066",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_103",
+        "type": "data",
+        "src": "sb_expl_003",
+        "dst": "sb_samp_067",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_104",
+        "type": "data",
+        "src": "sb_expl_011",
+        "dst": "sb_samp_068",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_105",
+        "type": "data",
+        "src": "sb_expl_023",
+        "dst": "sb_samp_069",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_106",
+        "type": "data",
+        "src": "sb_expl_002",
+        "dst": "sb_samp_070",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_107",
+        "type": "data",
+        "src": "sb_expl_029",
+        "dst": "sb_samp_071",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_108",
+        "type": "data",
+        "src": "sb_expl_002",
+        "dst": "sb_samp_072",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_109",
+        "type": "data",
+        "src": "sb_expl_029",
+        "dst": "sb_samp_073",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_110",
+        "type": "data",
+        "src": "sb_expl_000",
+        "dst": "sb_samp_074",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_111",
+        "type": "data",
+        "src": "sb_expl_013",
+        "dst": "sb_samp_075",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "e_112",
+        "type": "data",
+        "src": "sb_expl_022",
+        "dst": "sb_samp_076",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      }
+    ],
+    "constraints": {
+      "min_battery_percent": null,
+      "max_concurrent_tasks_per_agent": 1,
+      "periodic": []
+    },
+    "metadata": {}
+  },
+  "metadata": {
+    "scale": "ood",
+    "topology_class": "sampling_burst",
+    "n_agents_recommended": 10,
+    "sampler_seed": 8400,
+    "structural_features": {
+      "n_tasks": 114,
+      "n_edges": 113,
+      "mutex_edges": 0,
+      "mutex_ratio": 0.0,
+      "longest_chain_depth": 7,
+      "parallelism_index": 1
+    },
+    "variant_description": "OOD sampling_burst variant 5",
+    "generated_by": "ood_generator"
+  },
+  "baseline_sim_result": {
+    "makespan": 60768.89,
+    "greedy_cpm_makespan": 60768.89,
+    "greedy_coupled_makespan": 67704.0,
+    "cpsat_makespan": null,
+    "cpsat_status": "UNSOLVED",
+    "n_agents_used": 10
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "F1_pure_coverage": {
+    "description": "Pure area coverage; expected: coverage_planner only",
+    "reference": "Survey the area centered at (300, 300) with full mapping.",
+    "paraphrases": [
+      "Scan all of sector A; the area centers at (300, 300).",
+      "Map the region around (300, 300) completely.",
+      "Cover sector A at (300, 300) with full surface mapping.",
+      "Conduct a full mapping survey of the (300, 300) zone.",
+      "Reconnoiter the area at (300, 300) and produce a complete map.",
+      "Because the terrain is unmapped, please perform a full survey of (300, 300).",
+      "We need full coverage mapping at (300, 300) before any other ops.",
+      "Sweep the area at (300, 300) and generate complete map data.",
+      "Carry out a comprehensive survey of (300, 300).",
+      "Do full reconnaissance of sector A centered at (300, 300).",
+      "Provide complete cartographic coverage of (300, 300).",
+      "Survey and map the entire sector A at (300, 300).",
+      "Scan sector A around (300, 300) end to end.",
+      "Execute full-area mapping at (300, 300)."
+    ]
+  },
+  "F2_scan_and_sample": {
+    "description": "Coverage + sampling; expected: coverage_planner → sampling_template",
+    "reference": "Survey the area around (400, 400) and collect samples from interesting points.",
+    "paraphrases": [
+      "Scan the region centered at (400, 400) and take samples at notable spots.",
+      "Map the (400, 400) area and gather samples from points of interest.",
+      "Cover the zone at (400, 400) and extract samples from selected sites.",
+      "Survey near (400, 400); then collect material samples where useful.",
+      "Reconnoiter the (400, 400) sector and obtain samples at interesting locations.",
+      "We need to scan (400, 400) and bring back rock samples from key spots.",
+      "Map sector B around (400, 400) and pick up samples at interesting cells.",
+      "Survey (400, 400) area and conduct sample collection at notable points.",
+      "Examine the region centered on (400, 400); samples should be taken at points worth investigating.",
+      "Carry out full mapping of (400, 400) then take samples at sites of interest.",
+      "First survey (400, 400), then run sample collection at marked cells.",
+      "Cover the (400, 400) zone and acquire physical samples from interesting points.",
+      "Map the (400, 400) region; afterwards extract samples at chosen locations.",
+      "Scan the area at (400, 400) and gather material samples where appropriate."
+    ]
+  },
+  "F3_relay_and_coverage": {
+    "description": "Relay deployment + coverage; expected: relay_planner → coverage_planner",
+    "reference": "Deploy relays to sector A at (600, 600) and scan the entire area.",
+    "paraphrases": [
+      "Establish a communication relay chain to (600, 600) and survey sector A in full.",
+      "Set up beacons covering sector A; the far target is at (600, 600); then map the region.",
+      "Place communication relays to (600, 600) and then perform complete area mapping.",
+      "Deploy a relay network reaching (600, 600), then conduct full coverage of sector A.",
+      "Build a relay chain to (600, 600); afterwards scan all of sector A.",
+      "Because (600, 600) is beyond direct comm range, deploy relays first, then survey the entire sector A.",
+      "First set up relay communication to (600, 600); next map sector A in its entirety.",
+      "Install comm relays out to (600, 600) and survey the full area.",
+      "Deploy relay nodes from base to (600, 600), then carry out a full scan of sector A.",
+      "Set up the relay chain reaching (600, 600); then scan sector A end-to-end.",
+      "Place relay infrastructure to (600, 600) and cover sector A completely.",
+      "Deploy comm relays toward (600, 600); subsequently map all of sector A.",
+      "Build out the relay chain to (600, 600); after which conduct sector A full coverage.",
+      "Lay relay nodes to (600, 600), then run a complete area scan of sector A."
+    ]
+  },
+  "F4_multi_sector": {
+    "description": "Multi-sector independent coverage; expected: coverage_planner × N",
+    "reference": "Survey three sectors: sector A at (200, 200), sector B at (500, 500), and sector C at (800, 200).",
+    "paraphrases": [
+      "Map three areas: A at (200, 200), B at (500, 500), C at (800, 200).",
+      "Conduct surveys of sectors A (200, 200), B (500, 500), and C (800, 200).",
+      "Scan three independent zones: (200, 200), (500, 500), and (800, 200).",
+      "Cover sectors A through C — at (200, 200), (500, 500), (800, 200) respectively.",
+      "Survey areas A at (200, 200), B at (500, 500), and C at (800, 200) in parallel.",
+      "Map three separate regions located at (200, 200), (500, 500), and (800, 200).",
+      "Scan three target sectors: alpha (200, 200), beta (500, 500), gamma (800, 200).",
+      "Reconnoiter the three zones at (200, 200), (500, 500), and (800, 200).",
+      "Sweep three sectors: first at (200, 200), second at (500, 500), third at (800, 200).",
+      "Conduct independent surveys of three areas: A (200, 200), B (500, 500), C (800, 200).",
+      "Map each of the three sectors located at (200, 200), (500, 500), and (800, 200).",
+      "Survey sectors A, B, C with centers (200, 200), (500, 500), (800, 200).",
+      "Cover three separate regions at (200, 200), (500, 500), and (800, 200).",
+      "Map all three target zones: (200, 200), (500, 500), (800, 200)."
+    ]
+  },
+  "F5_complex_multistage": {
+    "description": "Complex multi-stage: relay + coverage + sample + analyze",
+    "reference": "Deploy relays to (700, 700), survey the area, take samples at interesting points, and analyze them.",
+    "paraphrases": [
+      "First deploy a relay chain to (700, 700), then map the area, collect samples at notable spots, and run analysis.",
+      "Set up communication relays out to (700, 700); afterwards survey the region, gather samples, and analyze them.",
+      "Establish a relay network reaching (700, 700), conduct full coverage, take samples at interesting cells, then analyze.",
+      "Build relay infrastructure to (700, 700), survey the area, sample at points of interest, and perform analysis.",
+      "Deploy relays to (700, 700), then map the sector, extract samples at notable locations, and analyze the samples.",
+      "First place relays out to (700, 700); next survey the area; then take samples at interesting points; finally analyze them.",
+      "Lay a relay chain to (700, 700), conduct mapping, gather material samples, and run sample analysis.",
+      "Set up comm relays to (700, 700), then perform full coverage, extract samples at selected points, and analyze.",
+      "Deploy relay nodes to (700, 700), survey the region completely, collect samples at interesting spots, and run analysis on them.",
+      "Build a comm relay chain to (700, 700), map the area, take samples at marked points, then perform analysis.",
+      "Place relays out to (700, 700), then scan the zone, extract samples at notable cells, and analyze the results.",
+      "Install relay infrastructure to (700, 700); afterwards conduct mapping, sampling at interesting points, and analysis.",
+      "Establish the relay chain to (700, 700), then survey, then sample at points of interest, then analyze.",
+      "Deploy comm relays to (700, 700), scan the area, gather samples at marked spots, and analyze them."
+    ]
+  }
+}

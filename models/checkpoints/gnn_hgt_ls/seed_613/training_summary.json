@@ -1,0 +1,19 @@
+{
+  "total_steps": 500736,
+  "elapsed_seconds": 126526.4,
+  "iterations": 489,
+  "episodes": 3813,
+  "final_model_path": "models/checkpoints/gnn_hgt_ls/seed_613/gnn_hgt_final.pt",
+  "final_mean_reward": -130.3611,
+  "early_mean_reward": -12.8116,
+  "late_mean_reward": -139.2549,
+  "reward_trend": "flat/declining",
+  "start_step": 0,
+  "corpus_mix": "staged_curriculum",
+  "resumed_from": null,
+  "lr": 0.0003,
+  "lr_schedule": "cosine",
+  "reward_normalization": true,
+  "lr_min": 1e-05,
+  "seed": 613
+}

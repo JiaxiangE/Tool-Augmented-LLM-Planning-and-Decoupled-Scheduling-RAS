@@ -1,0 +1,492 @@
+{
+  "hgt_ss_reference": {
+    "real_shackleton_1km": {
+      "per_seed_gap_pct": {
+        "42": 90.47,
+        "137": 65.2,
+        "271": 161.78,
+        "419": 40.2,
+        "613": 57.739999999999995
+      },
+      "n": 5,
+      "mean": 83.078,
+      "std": 47.563,
+      "ci_95_half": 59.057,
+      "min": 40.2,
+      "max": 161.78
+    },
+    "real_shackleton_5km": {
+      "per_seed_gap_pct": {
+        "42": -3.3600000000000003,
+        "137": -13.77,
+        "271": 23.23,
+        "419": -14.91,
+        "613": -6.57
+      },
+      "n": 5,
+      "mean": -3.076,
+      "std": 15.481,
+      "ci_95_half": 19.223,
+      "min": -14.91,
+      "max": 23.23
+    }
+  },
+  "by_lr_config": [
+    {
+      "label": "lr=3e-4",
+      "lr": 0.0003,
+      "source_folder": "ms_vs_ss",
+      "by_scenario": {
+        "real_shackleton_1km": {
+          "n_ms_seeds": 5,
+          "ms_seeds": [
+            42,
+            137,
+            271,
+            419,
+            613
+          ],
+          "ms_gap_mean": 156.198,
+          "ms_gap_std": 83.803,
+          "ms_gap_ci_95_half": 104.056,
+          "ms_gap_min": 76.34,
+          "ms_gap_max": 265.43,
+          "per_seed_pairs": [
+            {
+              "seed": 42,
+              "ss_gap": 90.47,
+              "ms_gap": 76.34,
+              "delta_pp": 14.13
+            },
+            {
+              "seed": 137,
+              "ss_gap": 65.2,
+              "ms_gap": 86.11,
+              "delta_pp": -20.91
+            },
+            {
+              "seed": 271,
+              "ss_gap": 161.78,
+              "ms_gap": 221.51,
+              "delta_pp": -59.73
+            },
+            {
+              "seed": 419,
+              "ss_gap": 40.2,
+              "ms_gap": 131.6,
+              "delta_pp": -91.4
+            },
+            {
+              "seed": 613,
+              "ss_gap": 57.74,
+              "ms_gap": 265.43,
+              "delta_pp": -207.69
+            }
+          ],
+          "paired_delta_mean_pp": -73.12,
+          "paired_delta_std_pp": 85.09,
+          "paired_delta_ci_95_half_pp": 105.653,
+          "paired_t_stat": -1.922,
+          "paired_p_two_sided": 0.12705,
+          "n_pairs": 5
+        },
+        "real_shackleton_5km": {
+          "n_ms_seeds": 5,
+          "ms_seeds": [
+            42,
+            137,
+            271,
+            419,
+            613
+          ],
+          "ms_gap_mean": 29.768,
+          "ms_gap_std": 35.296,
+          "ms_gap_ci_95_half": 43.826,
+          "ms_gap_min": -5.27,
+          "ms_gap_max": 79.27,
+          "per_seed_pairs": [
+            {
+              "seed": 42,
+              "ss_gap": -3.36,
+              "ms_gap": 12.77,
+              "delta_pp": -16.13
+            },
+            {
+              "seed": 137,
+              "ss_gap": -13.77,
+              "ms_gap": 8.53,
+              "delta_pp": -22.3
+            },
+            {
+              "seed": 271,
+              "ss_gap": 23.23,
+              "ms_gap": -5.27,
+              "delta_pp": 28.5
+            },
+            {
+              "seed": 419,
+              "ss_gap": -14.91,
+              "ms_gap": 53.54,
+              "delta_pp": -68.45
+            },
+            {
+              "seed": 613,
+              "ss_gap": -6.57,
+              "ms_gap": 79.27,
+              "delta_pp": -85.84
+            }
+          ],
+          "paired_delta_mean_pp": -32.844,
+          "paired_delta_std_pp": 45.36,
+          "paired_delta_ci_95_half_pp": 56.321,
+          "paired_t_stat": -1.619,
+          "paired_p_two_sided": 0.18074,
+          "n_pairs": 5
+        }
+      }
+    },
+    {
+      "label": "lr=6e-5 (B1)",
+      "lr": 6e-05,
+      "source_folder": "ms_vs_ss_1",
+      "by_scenario": {
+        "real_shackleton_1km": {
+          "n_ms_seeds": 5,
+          "ms_seeds": [
+            42,
+            137,
+            271,
+            419,
+            613
+          ],
+          "ms_gap_mean": 83.036,
+          "ms_gap_std": 44.321,
+          "ms_gap_ci_95_half": 55.031,
+          "ms_gap_min": 40.74,
+          "ms_gap_max": 138.73,
+          "per_seed_pairs": [
+            {
+              "seed": 42,
+              "ss_gap": 90.47,
+              "ms_gap": 62.54,
+              "delta_pp": 27.93
+            },
+            {
+              "seed": 137,
+              "ss_gap": 65.2,
+              "ms_gap": 138.73,
+              "delta_pp": -73.53
+            },
+            {
+              "seed": 271,
+              "ss_gap": 161.78,
+              "ms_gap": 51.08,
+              "delta_pp": 110.7
+            },
+            {
+              "seed": 419,
+              "ss_gap": 40.2,
+              "ms_gap": 122.09,
+              "delta_pp": -81.89
+            },
+            {
+              "seed": 613,
+              "ss_gap": 57.74,
+              "ms_gap": 40.74,
+              "delta_pp": 17.0
+            }
+          ],
+          "paired_delta_mean_pp": 0.042,
+          "paired_delta_std_pp": 79.744,
+          "paired_delta_ci_95_half_pp": 99.015,
+          "paired_t_stat": 0.001,
+          "paired_p_two_sided": 0.99912,
+          "n_pairs": 5
+        },
+        "real_shackleton_5km": {
+          "n_ms_seeds": 5,
+          "ms_seeds": [
+            42,
+            137,
+            271,
+            419,
+            613
+          ],
+          "ms_gap_mean": 37.034,
+          "ms_gap_std": 37.516,
+          "ms_gap_ci_95_half": 46.583,
+          "ms_gap_min": -3.26,
+          "ms_gap_max": 75.85,
+          "per_seed_pairs": [
+            {
+              "seed": 42,
+              "ss_gap": -3.36,
+              "ms_gap": 3.7,
+              "delta_pp": -7.06
+            },
+            {
+              "seed": 137,
+              "ss_gap": -13.77,
+              "ms_gap": 34.66,
+              "delta_pp": -48.43
+            },
+            {
+              "seed": 271,
+              "ss_gap": 23.23,
+              "ms_gap": -3.26,
+              "delta_pp": 26.49
+            },
+            {
+              "seed": 419,
+              "ss_gap": -14.91,
+              "ms_gap": 75.85,
+              "delta_pp": -90.76
+            },
+            {
+              "seed": 613,
+              "ss_gap": -6.57,
+              "ms_gap": 74.22,
+              "delta_pp": -80.79
+            }
+          ],
+          "paired_delta_mean_pp": -40.11,
+          "paired_delta_std_pp": 49.541,
+          "paired_delta_ci_95_half_pp": 61.514,
+          "paired_t_stat": -1.81,
+          "paired_p_two_sided": 0.14448,
+          "n_pairs": 5
+        }
+      }
+    },
+    {
+      "label": "lr=1.2e-5 (B2)",
+      "lr": 1.2e-05,
+      "source_folder": "ms_vs_ss_2",
+      "by_scenario": {
+        "real_shackleton_1km": {
+          "n_ms_seeds": 5,
+          "ms_seeds": [
+            42,
+            137,
+            271,
+            419,
+            613
+          ],
+          "ms_gap_mean": 115.238,
+          "ms_gap_std": 48.174,
+          "ms_gap_ci_95_half": 59.816,
+          "ms_gap_min": 57.38,
+          "ms_gap_max": 164.35,
+          "per_seed_pairs": [
+            {
+              "seed": 42,
+              "ss_gap": 90.47,
+              "ms_gap": 153.85,
+              "delta_pp": -63.38
+            },
+            {
+              "seed": 137,
+              "ss_gap": 65.2,
+              "ms_gap": 164.35,
+              "delta_pp": -99.15
+            },
+            {
+              "seed": 271,
+              "ss_gap": 161.78,
+              "ms_gap": 72.14,
+              "delta_pp": 89.64
+            },
+            {
+              "seed": 419,
+              "ss_gap": 40.2,
+              "ms_gap": 128.47,
+              "delta_pp": -88.27
+            },
+            {
+              "seed": 613,
+              "ss_gap": 57.74,
+              "ms_gap": 57.38,
+              "delta_pp": 0.36
+            }
+          ],
+          "paired_delta_mean_pp": -32.16,
+          "paired_delta_std_pp": 78.268,
+          "paired_delta_ci_95_half_pp": 97.182,
+          "paired_t_stat": -0.919,
+          "paired_p_two_sided": 0.4102,
+          "n_pairs": 5
+        },
+        "real_shackleton_5km": {
+          "n_ms_seeds": 5,
+          "ms_seeds": [
+            42,
+            137,
+            271,
+            419,
+            613
+          ],
+          "ms_gap_mean": 13.852,
+          "ms_gap_std": 19.961,
+          "ms_gap_ci_95_half": 24.785,
+          "ms_gap_min": -14.16,
+          "ms_gap_max": 39.86,
+          "per_seed_pairs": [
+            {
+              "seed": 42,
+              "ss_gap": -3.36,
+              "ms_gap": 22.69,
+              "delta_pp": -26.05
+            },
+            {
+              "seed": 137,
+              "ss_gap": -13.77,
+              "ms_gap": 39.86,
+              "delta_pp": -53.63
+            },
+            {
+              "seed": 271,
+              "ss_gap": 23.23,
+              "ms_gap": -14.16,
+              "delta_pp": 37.39
+            },
+            {
+              "seed": 419,
+              "ss_gap": -14.91,
+              "ms_gap": 14.39,
+              "delta_pp": -29.3
+            },
+            {
+              "seed": 613,
+              "ss_gap": -6.57,
+              "ms_gap": 6.48,
+              "delta_pp": -13.05
+            }
+          ],
+          "paired_delta_mean_pp": -16.928,
+          "paired_delta_std_pp": 33.722,
+          "paired_delta_ci_95_half_pp": 41.872,
+          "paired_t_stat": -1.122,
+          "paired_p_two_sided": 0.32448,
+          "n_pairs": 5
+        }
+      }
+    },
+    {
+      "label": "lr=plateau (B3)",
+      "lr": 0.0,
+      "source_folder": "ms_vs_ss_3",
+      "by_scenario": {
+        "real_shackleton_1km": {
+          "n_ms_seeds": 5,
+          "ms_seeds": [
+            42,
+            137,
+            271,
+            419,
+            613
+          ],
+          "ms_gap_mean": 99.556,
+          "ms_gap_std": 85.233,
+          "ms_gap_ci_95_half": 105.83,
+          "ms_gap_min": 53.82,
+          "ms_gap_max": 251.75,
+          "per_seed_pairs": [
+            {
+              "seed": 42,
+              "ss_gap": 90.47,
+              "ms_gap": 63.67,
+              "delta_pp": 26.8
+            },
+            {
+              "seed": 137,
+              "ss_gap": 65.2,
+              "ms_gap": 251.75,
+              "delta_pp": -186.55
+            },
+            {
+              "seed": 271,
+              "ss_gap": 161.78,
+              "ms_gap": 67.85,
+              "delta_pp": 93.93
+            },
+            {
+              "seed": 419,
+              "ss_gap": 40.2,
+              "ms_gap": 53.82,
+              "delta_pp": -13.62
+            },
+            {
+              "seed": 613,
+              "ss_gap": 57.74,
+              "ms_gap": 60.69,
+              "delta_pp": -2.95
+            }
+          ],
+          "paired_delta_mean_pp": -16.478,
+          "paired_delta_std_pp": 103.897,
+          "paired_delta_ci_95_half_pp": 129.006,
+          "paired_t_stat": -0.355,
+          "paired_p_two_sided": 0.74077,
+          "n_pairs": 5
+        },
+        "real_shackleton_5km": {
+          "n_ms_seeds": 5,
+          "ms_seeds": [
+            42,
+            137,
+            271,
+            419,
+            613
+          ],
+          "ms_gap_mean": 13.812,
+          "ms_gap_std": 24.032,
+          "ms_gap_ci_95_half": 29.84,
+          "ms_gap_min": 0.12,
+          "ms_gap_max": 56.36,
+          "per_seed_pairs": [
+            {
+              "seed": 42,
+              "ss_gap": -3.36,
+              "ms_gap": 0.12,
+              "delta_pp": -3.48
+            },
+            {
+              "seed": 137,
+              "ss_gap": -13.77,
+              "ms_gap": 56.36,
+              "delta_pp": -70.13
+            },
+            {
+              "seed": 271,
+              "ss_gap": 23.23,
+              "ms_gap": 8.68,
+              "delta_pp": 14.55
+            },
+            {
+              "seed": 419,
+              "ss_gap": -14.91,
+              "ms_gap": 0.42,
+              "delta_pp": -15.33
+            },
+            {
+              "seed": 613,
+              "ss_gap": -6.57,
+              "ms_gap": 3.48,
+              "delta_pp": -10.05
+            }
+          ],
+          "paired_delta_mean_pp": -16.888,
+          "paired_delta_std_pp": 31.828,
+          "paired_delta_ci_95_half_pp": 39.519,
+          "paired_t_stat": -1.186,
+          "paired_p_two_sided": 0.30109,
+          "n_pairs": 5
+        }
+      }
+    }
+  ],
+  "scenarios": [
+    "real_shackleton_1km",
+    "real_shackleton_5km"
+  ]
+}

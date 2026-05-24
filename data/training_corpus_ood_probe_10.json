@@ -1,0 +1,17 @@
+{
+  "probe_set_version": "probe_10",
+  "selection_seed": 42,
+  "n_scenarios": 10,
+  "scenarios": [
+    "ood_deep_chain_003.json",
+    "ood_deep_chain_004.json",
+    "ood_mixed_003.json",
+    "ood_mixed_007.json",
+    "ood_mutex_dense_003.json",
+    "ood_mutex_dense_005.json",
+    "ood_parallel_pure_002.json",
+    "ood_parallel_pure_001.json",
+    "ood_sampling_burst_005.json",
+    "ood_sampling_burst_002.json"
+  ]
+}

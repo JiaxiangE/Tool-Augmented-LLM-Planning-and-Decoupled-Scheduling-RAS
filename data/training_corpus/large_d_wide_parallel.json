@@ -1,0 +1,2191 @@
+{
+  "taskgraph": {
+    "version": "0.1",
+    "mission_id": "large_d_parallel",
+    "nodes": [
+      {
+        "id": "ld_q0_relay_deploy_0",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 0,
+          "total_hops": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          300.0,
+          100.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "relay_planner"
+      },
+      {
+        "id": "ld_q0_scan_cell_0",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q0_scan_0"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          590.0,
+          190.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q0_scan_cell_1",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q0_scan_1"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          610.0,
+          190.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q0_scan_cell_2",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q0_scan_2"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          590.0,
+          210.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q0_scan_cell_3",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q0_scan_3"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          610.0,
+          210.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "sample_ld_s0_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "ld_s0",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_ld_q0_scan_1"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          200.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s0_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "ld_s0",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          200.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s0_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "ld_s0",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          200.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s0_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "ld_s0",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_ld_s0"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          200.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "ld_q1_relay_deploy_0",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 0,
+          "total_hops": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          100.0,
+          300.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "relay_planner"
+      },
+      {
+        "id": "ld_q1_scan_cell_0",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q1_scan_0"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          190.0,
+          590.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q1_scan_cell_1",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q1_scan_1"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          210.0,
+          590.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q1_scan_cell_2",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q1_scan_2"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          190.0,
+          610.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q1_scan_cell_3",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q1_scan_3"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          210.0,
+          610.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "sample_ld_s1_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "ld_s1",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_ld_q1_scan_1"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          200.0,
+          600.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s1_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "ld_s1",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          200.0,
+          600.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s1_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "ld_s1",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          200.0,
+          600.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s1_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "ld_s1",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_ld_s1"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          200.0,
+          600.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "ld_q2_relay_deploy_0",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 0,
+          "total_hops": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          300.0,
+          300.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "relay_planner"
+      },
+      {
+        "id": "ld_q2_scan_cell_0",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q2_scan_0"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          590.0,
+          590.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q2_scan_cell_1",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q2_scan_1"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          610.0,
+          590.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q2_scan_cell_2",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q2_scan_2"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          590.0,
+          610.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q2_scan_cell_3",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q2_scan_3"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          610.0,
+          610.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "sample_ld_s2_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "ld_s2",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_ld_q2_scan_1"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          600.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s2_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "ld_s2",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          600.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s2_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "ld_s2",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          600.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s2_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "ld_s2",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_ld_s2"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          600.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "ld_q3_relay_deploy_0",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 0,
+          "total_hops": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          400.0,
+          200.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "relay_planner"
+      },
+      {
+        "id": "ld_q3_scan_cell_0",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q3_scan_0"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          790.0,
+          390.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q3_scan_cell_1",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q3_scan_1"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          810.0,
+          390.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q3_scan_cell_2",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q3_scan_2"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          790.0,
+          410.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q3_scan_cell_3",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q3_scan_3"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          810.0,
+          410.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "sample_ld_s3_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "ld_s3",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_ld_q3_scan_1"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          800.0,
+          400.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s3_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "ld_s3",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          800.0,
+          400.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s3_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "ld_s3",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          800.0,
+          400.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s3_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "ld_s3",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_ld_s3"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          800.0,
+          400.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "ld_q4_relay_deploy_0",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 0,
+          "total_hops": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          200.0,
+          400.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "relay_planner"
+      },
+      {
+        "id": "ld_q4_scan_cell_0",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q4_scan_0"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          390.0,
+          790.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q4_scan_cell_1",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q4_scan_1"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          410.0,
+          790.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q4_scan_cell_2",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q4_scan_2"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          390.0,
+          810.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "ld_q4_scan_cell_3",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_ld_q4_scan_3"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          410.0,
+          810.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "sample_ld_s4_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "ld_s4",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_ld_q4_scan_1"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          400.0,
+          800.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s4_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "ld_s4",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          400.0,
+          800.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s4_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "ld_s4",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          400.0,
+          800.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_ld_s4_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "ld_s4",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_ld_s4"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          400.0,
+          800.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      }
+    ],
+    "edges": [
+      {
+        "id": "ld_q0_scan_order_0_1",
+        "type": "order",
+        "src": "ld_q0_scan_cell_0",
+        "dst": "ld_q0_scan_cell_1",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q0_scan_order_1_2",
+        "type": "order",
+        "src": "ld_q0_scan_cell_1",
+        "dst": "ld_q0_scan_cell_2",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q0_scan_order_2_3",
+        "type": "order",
+        "src": "ld_q0_scan_cell_2",
+        "dst": "ld_q0_scan_cell_3",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s0_order_0_1",
+        "type": "order",
+        "src": "sample_ld_s0_approach",
+        "dst": "sample_ld_s0_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s0_order_1_2",
+        "type": "order",
+        "src": "sample_ld_s0_deploy_arm",
+        "dst": "sample_ld_s0_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s0_order_2_3",
+        "type": "order",
+        "src": "sample_ld_s0_extract",
+        "dst": "sample_ld_s0_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q1_scan_order_0_1",
+        "type": "order",
+        "src": "ld_q1_scan_cell_0",
+        "dst": "ld_q1_scan_cell_1",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q1_scan_order_1_2",
+        "type": "order",
+        "src": "ld_q1_scan_cell_1",
+        "dst": "ld_q1_scan_cell_2",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q1_scan_order_2_3",
+        "type": "order",
+        "src": "ld_q1_scan_cell_2",
+        "dst": "ld_q1_scan_cell_3",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s1_order_0_1",
+        "type": "order",
+        "src": "sample_ld_s1_approach",
+        "dst": "sample_ld_s1_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s1_order_1_2",
+        "type": "order",
+        "src": "sample_ld_s1_deploy_arm",
+        "dst": "sample_ld_s1_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s1_order_2_3",
+        "type": "order",
+        "src": "sample_ld_s1_extract",
+        "dst": "sample_ld_s1_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q2_scan_order_0_1",
+        "type": "order",
+        "src": "ld_q2_scan_cell_0",
+        "dst": "ld_q2_scan_cell_1",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q2_scan_order_1_2",
+        "type": "order",
+        "src": "ld_q2_scan_cell_1",
+        "dst": "ld_q2_scan_cell_2",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q2_scan_order_2_3",
+        "type": "order",
+        "src": "ld_q2_scan_cell_2",
+        "dst": "ld_q2_scan_cell_3",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s2_order_0_1",
+        "type": "order",
+        "src": "sample_ld_s2_approach",
+        "dst": "sample_ld_s2_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s2_order_1_2",
+        "type": "order",
+        "src": "sample_ld_s2_deploy_arm",
+        "dst": "sample_ld_s2_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s2_order_2_3",
+        "type": "order",
+        "src": "sample_ld_s2_extract",
+        "dst": "sample_ld_s2_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q3_scan_order_0_1",
+        "type": "order",
+        "src": "ld_q3_scan_cell_0",
+        "dst": "ld_q3_scan_cell_1",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q3_scan_order_1_2",
+        "type": "order",
+        "src": "ld_q3_scan_cell_1",
+        "dst": "ld_q3_scan_cell_2",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q3_scan_order_2_3",
+        "type": "order",
+        "src": "ld_q3_scan_cell_2",
+        "dst": "ld_q3_scan_cell_3",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s3_order_0_1",
+        "type": "order",
+        "src": "sample_ld_s3_approach",
+        "dst": "sample_ld_s3_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s3_order_1_2",
+        "type": "order",
+        "src": "sample_ld_s3_deploy_arm",
+        "dst": "sample_ld_s3_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s3_order_2_3",
+        "type": "order",
+        "src": "sample_ld_s3_extract",
+        "dst": "sample_ld_s3_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q4_scan_order_0_1",
+        "type": "order",
+        "src": "ld_q4_scan_cell_0",
+        "dst": "ld_q4_scan_cell_1",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q4_scan_order_1_2",
+        "type": "order",
+        "src": "ld_q4_scan_cell_1",
+        "dst": "ld_q4_scan_cell_2",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "ld_q4_scan_order_2_3",
+        "type": "order",
+        "src": "ld_q4_scan_cell_2",
+        "dst": "ld_q4_scan_cell_3",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s4_order_0_1",
+        "type": "order",
+        "src": "sample_ld_s4_approach",
+        "dst": "sample_ld_s4_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s4_order_1_2",
+        "type": "order",
+        "src": "sample_ld_s4_deploy_arm",
+        "dst": "sample_ld_s4_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_ld_s4_order_2_3",
+        "type": "order",
+        "src": "sample_ld_s4_extract",
+        "dst": "sample_ld_s4_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_0",
+        "type": "data",
+        "src": "ld_q0_scan_cell_1",
+        "dst": "sample_ld_s0_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_1",
+        "type": "data",
+        "src": "ld_q1_scan_cell_1",
+        "dst": "sample_ld_s1_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_2",
+        "type": "data",
+        "src": "ld_q2_scan_cell_1",
+        "dst": "sample_ld_s2_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_3",
+        "type": "data",
+        "src": "ld_q3_scan_cell_1",
+        "dst": "sample_ld_s3_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_4",
+        "type": "data",
+        "src": "ld_q4_scan_cell_1",
+        "dst": "sample_ld_s4_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "cross_order_0",
+        "type": "order",
+        "src": "ld_q0_relay_deploy_0",
+        "dst": "ld_q0_scan_cell_0",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "cross_order_1",
+        "type": "order",
+        "src": "ld_q1_relay_deploy_0",
+        "dst": "ld_q1_scan_cell_0",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "cross_order_2",
+        "type": "order",
+        "src": "ld_q2_relay_deploy_0",
+        "dst": "ld_q2_scan_cell_0",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "cross_order_3",
+        "type": "order",
+        "src": "ld_q3_relay_deploy_0",
+        "dst": "ld_q3_scan_cell_0",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "cross_order_4",
+        "type": "order",
+        "src": "ld_q4_relay_deploy_0",
+        "dst": "ld_q4_scan_cell_0",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      }
+    ],
+    "constraints": {
+      "min_battery_percent": null,
+      "max_concurrent_tasks_per_agent": 1,
+      "periodic": []
+    },
+    "metadata": {}
+  },
+  "metadata": {
+    "scale": "large",
+    "variant_description": "D: Wide parallel (5 independent sectors, max parallelism)",
+    "generated_by": "tool_library",
+    "node_count": 45,
+    "edge_count": 40,
+    "agent_count": 8,
+    "baseline_method": "greedy+CPM"
+  },
+  "baseline_sim_result": {
+    "makespan": 8891.16,
+    "task_completion_rate": 1.0,
+    "energy_consumption": {
+      "rover_1": 1179.8193858606792,
+      "rover_2": 1420.5743519174066,
+      "rover_3": 1204.6986578809392,
+      "relay_1": 410.9384441354932,
+      "relay_2": 397.720680758398,
+      "sampler_1": 1549.1772596780065,
+      "sampler_2": 1485.1630891611258,
+      "sampler_3": 1443.9494936611663
+    },
+    "constraint_violations": [],
+    "comm_connectivity_rate": 1.0,
+    "bottleneck_tasks": [
+      "sample_ld_s0_approach",
+      "sample_ld_s0_deploy_arm",
+      "sample_ld_s0_extract",
+      "sample_ld_s0_store"
+    ],
+    "completed_tasks": [
+      "ld_q0_relay_deploy_0",
+      "ld_q3_relay_deploy_0",
+      "ld_q0_scan_cell_0",
+      "ld_q4_relay_deploy_0",
+      "ld_q1_relay_deploy_0",
+      "ld_q3_scan_cell_0",
+      "ld_q0_scan_cell_1",
+      "ld_q4_scan_cell_0",
+      "ld_q2_relay_deploy_0",
+      "ld_q3_scan_cell_1",
+      "sample_ld_s0_approach",
+      "ld_q1_scan_cell_0",
+      "sample_ld_s3_approach",
+      "ld_q2_scan_cell_0",
+      "ld_q4_scan_cell_1",
+      "ld_q2_scan_cell_1",
+      "ld_q1_scan_cell_1",
+      "ld_q0_scan_cell_2",
+      "sample_ld_s4_approach",
+      "ld_q2_scan_cell_2",
+      "sample_ld_s2_approach",
+      "sample_ld_s0_deploy_arm",
+      "sample_ld_s4_deploy_arm",
+      "ld_q4_scan_cell_2",
+      "ld_q3_scan_cell_2",
+      "sample_ld_s1_approach",
+      "sample_ld_s3_deploy_arm",
+      "sample_ld_s2_deploy_arm",
+      "sample_ld_s1_deploy_arm",
+      "ld_q1_scan_cell_2",
+      "ld_q0_scan_cell_3",
+      "ld_q4_scan_cell_3",
+      "sample_ld_s4_extract",
+      "sample_ld_s0_extract",
+      "sample_ld_s1_extract",
+      "ld_q3_scan_cell_3",
+      "ld_q1_scan_cell_3",
+      "ld_q2_scan_cell_3",
+      "sample_ld_s2_extract",
+      "sample_ld_s0_store",
+      "sample_ld_s3_extract",
+      "sample_ld_s1_store",
+      "sample_ld_s4_store",
+      "sample_ld_s3_store",
+      "sample_ld_s2_store"
+    ],
+    "failed_tasks": [],
+    "greedy_cpm_makespan": 8891.16,
+    "greedy_coupled_makespan": 11089.0,
+    "cpsat_makespan": null,
+    "cpsat_status": "UNSOLVED",
+    "cpsat_wall_s": 0.0
+  },
+  "baseline_schedule": {
+    "mission_id": "large_d_parallel",
+    "makespan_s": 2880.0,
+    "items": [
+      {
+        "node_id": "ld_q0_relay_deploy_0",
+        "agent": "relay_1",
+        "start_s": 0.0,
+        "end_s": 300.0
+      },
+      {
+        "node_id": "ld_q4_relay_deploy_0",
+        "agent": "relay_1",
+        "start_s": 300.0,
+        "end_s": 600.0
+      },
+      {
+        "node_id": "ld_q3_relay_deploy_0",
+        "agent": "relay_2",
+        "start_s": 0.0,
+        "end_s": 300.0
+      },
+      {
+        "node_id": "ld_q1_relay_deploy_0",
+        "agent": "relay_2",
+        "start_s": 300.0,
+        "end_s": 600.0
+      },
+      {
+        "node_id": "ld_q2_relay_deploy_0",
+        "agent": "relay_1",
+        "start_s": 600.0,
+        "end_s": 900.0
+      },
+      {
+        "node_id": "ld_q0_scan_cell_0",
+        "agent": "rover_1",
+        "start_s": 300.0,
+        "end_s": 420.0
+      },
+      {
+        "node_id": "ld_q4_scan_cell_0",
+        "agent": "rover_2",
+        "start_s": 600.0,
+        "end_s": 720.0
+      },
+      {
+        "node_id": "ld_q3_scan_cell_0",
+        "agent": "rover_1",
+        "start_s": 420.0,
+        "end_s": 540.0
+      },
+      {
+        "node_id": "ld_q1_scan_cell_0",
+        "agent": "rover_2",
+        "start_s": 720.0,
+        "end_s": 840.0
+      },
+      {
+        "node_id": "ld_q2_scan_cell_0",
+        "agent": "rover_3",
+        "start_s": 900.0,
+        "end_s": 1020.0
+      },
+      {
+        "node_id": "ld_q0_scan_cell_1",
+        "agent": "rover_1",
+        "start_s": 540.0,
+        "end_s": 660.0
+      },
+      {
+        "node_id": "ld_q4_scan_cell_1",
+        "agent": "rover_3",
+        "start_s": 1020.0,
+        "end_s": 1140.0
+      },
+      {
+        "node_id": "ld_q3_scan_cell_1",
+        "agent": "rover_1",
+        "start_s": 660.0,
+        "end_s": 780.0
+      },
+      {
+        "node_id": "ld_q1_scan_cell_1",
+        "agent": "rover_3",
+        "start_s": 1140.0,
+        "end_s": 1260.0
+      },
+      {
+        "node_id": "ld_q2_scan_cell_1",
+        "agent": "rover_2",
+        "start_s": 1020.0,
+        "end_s": 1140.0
+      },
+      {
+        "node_id": "ld_q0_scan_cell_2",
+        "agent": "rover_2",
+        "start_s": 1140.0,
+        "end_s": 1260.0
+      },
+      {
+        "node_id": "sample_ld_s0_approach",
+        "agent": "sampler_1",
+        "start_s": 660.0,
+        "end_s": 780.0
+      },
+      {
+        "node_id": "ld_q4_scan_cell_2",
+        "agent": "rover_3",
+        "start_s": 1260.0,
+        "end_s": 1380.0
+      },
+      {
+        "node_id": "sample_ld_s4_approach",
+        "agent": "sampler_2",
+        "start_s": 1140.0,
+        "end_s": 1260.0
+      },
+      {
+        "node_id": "ld_q3_scan_cell_2",
+        "agent": "rover_2",
+        "start_s": 1260.0,
+        "end_s": 1380.0
+      },
+      {
+        "node_id": "sample_ld_s3_approach",
+        "agent": "sampler_1",
+        "start_s": 780.0,
+        "end_s": 900.0
+      },
+      {
+        "node_id": "ld_q1_scan_cell_2",
+        "agent": "rover_3",
+        "start_s": 1380.0,
+        "end_s": 1500.0
+      },
+      {
+        "node_id": "sample_ld_s1_approach",
+        "agent": "sampler_2",
+        "start_s": 1260.0,
+        "end_s": 1380.0
+      },
+      {
+        "node_id": "ld_q2_scan_cell_2",
+        "agent": "rover_1",
+        "start_s": 1140.0,
+        "end_s": 1260.0
+      },
+      {
+        "node_id": "sample_ld_s2_approach",
+        "agent": "sampler_3",
+        "start_s": 1140.0,
+        "end_s": 1260.0
+      },
+      {
+        "node_id": "ld_q0_scan_cell_3",
+        "agent": "rover_2",
+        "start_s": 1380.0,
+        "end_s": 1500.0
+      },
+      {
+        "node_id": "sample_ld_s0_deploy_arm",
+        "agent": "sampler_3",
+        "start_s": 1260.0,
+        "end_s": 1320.0
+      },
+      {
+        "node_id": "ld_q4_scan_cell_3",
+        "agent": "rover_1",
+        "start_s": 1380.0,
+        "end_s": 1500.0
+      },
+      {
+        "node_id": "sample_ld_s4_deploy_arm",
+        "agent": "sampler_1",
+        "start_s": 1260.0,
+        "end_s": 1320.0
+      },
+      {
+        "node_id": "ld_q3_scan_cell_3",
+        "agent": "rover_2",
+        "start_s": 1500.0,
+        "end_s": 1620.0
+      },
+      {
+        "node_id": "sample_ld_s3_deploy_arm",
+        "agent": "sampler_3",
+        "start_s": 1320.0,
+        "end_s": 1380.0
+      },
+      {
+        "node_id": "ld_q1_scan_cell_3",
+        "agent": "rover_1",
+        "start_s": 1500.0,
+        "end_s": 1620.0
+      },
+      {
+        "node_id": "sample_ld_s1_deploy_arm",
+        "agent": "sampler_2",
+        "start_s": 1380.0,
+        "end_s": 1440.0
+      },
+      {
+        "node_id": "ld_q2_scan_cell_3",
+        "agent": "rover_3",
+        "start_s": 1500.0,
+        "end_s": 1620.0
+      },
+      {
+        "node_id": "sample_ld_s2_deploy_arm",
+        "agent": "sampler_1",
+        "start_s": 1320.0,
+        "end_s": 1380.0
+      },
+      {
+        "node_id": "sample_ld_s0_extract",
+        "agent": "sampler_2",
+        "start_s": 1440.0,
+        "end_s": 2040.0
+      },
+      {
+        "node_id": "sample_ld_s4_extract",
+        "agent": "sampler_3",
+        "start_s": 1380.0,
+        "end_s": 1980.0
+      },
+      {
+        "node_id": "sample_ld_s3_extract",
+        "agent": "sampler_2",
+        "start_s": 2040.0,
+        "end_s": 2640.0
+      },
+      {
+        "node_id": "sample_ld_s1_extract",
+        "agent": "sampler_1",
+        "start_s": 1440.0,
+        "end_s": 2040.0
+      },
+      {
+        "node_id": "sample_ld_s2_extract",
+        "agent": "sampler_3",
+        "start_s": 1980.0,
+        "end_s": 2580.0
+      },
+      {
+        "node_id": "sample_ld_s0_store",
+        "agent": "sampler_1",
+        "start_s": 2040.0,
+        "end_s": 2160.0
+      },
+      {
+        "node_id": "sample_ld_s4_store",
+        "agent": "sampler_2",
+        "start_s": 2640.0,
+        "end_s": 2760.0
+      },
+      {
+        "node_id": "sample_ld_s3_store",
+        "agent": "sampler_1",
+        "start_s": 2640.0,
+        "end_s": 2760.0
+      },
+      {
+        "node_id": "sample_ld_s1_store",
+        "agent": "sampler_3",
+        "start_s": 2580.0,
+        "end_s": 2700.0
+      },
+      {
+        "node_id": "sample_ld_s2_store",
+        "agent": "sampler_2",
+        "start_s": 2760.0,
+        "end_s": 2880.0
+      }
+    ]
+  }
+}

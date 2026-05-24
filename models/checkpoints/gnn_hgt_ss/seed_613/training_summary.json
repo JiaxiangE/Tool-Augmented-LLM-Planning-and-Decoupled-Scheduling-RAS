@@ -1,0 +1,15 @@
+{
+  "total_steps": 500224,
+  "elapsed_seconds": 53608.4,
+  "iterations": 977,
+  "episodes": 38251,
+  "final_model_path": "models/checkpoints/gnn_hgt_ss/seed_613/gnn_hgt_final.pt",
+  "final_mean_reward": 1.7657,
+  "early_mean_reward": 1.7659,
+  "late_mean_reward": 1.7669,
+  "reward_trend": "flat/declining",
+  "start_step": 0,
+  "corpus_mix": "original_14_scenario_corpus",
+  "resumed_from": null,
+  "seed": 613
+}

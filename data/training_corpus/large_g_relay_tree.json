@@ -1,0 +1,1301 @@
+{
+  "taskgraph": {
+    "version": "0.1",
+    "mission_id": "large_g_tree",
+    "nodes": [
+      {
+        "id": "lg_rN_deploy_0",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 0,
+          "total_hops": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          250.0,
+          250.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "relay_planner"
+      },
+      {
+        "id": "lg_rE_deploy_0",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 0,
+          "total_hops": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          300.0,
+          100.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "relay_planner"
+      },
+      {
+        "id": "lg_N1_cell_0",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_N1_0"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          490.0,
+          490.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lg_N1_cell_1",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_N1_1"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          510.0,
+          490.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lg_N1_cell_2",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_N1_2"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          490.0,
+          510.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lg_N1_cell_3",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_N1_3"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          510.0,
+          510.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "sample_lg_sN1_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "lg_sN1",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_lg_N1_1"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          500.0,
+          500.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lg_sN1_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "lg_sN1",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          500.0,
+          500.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lg_sN1_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "lg_sN1",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          500.0,
+          500.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lg_sN1_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "lg_sN1",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_lg_sN1"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          500.0,
+          500.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "lg_N2_cell_0",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_N2_0"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          530.0,
+          530.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lg_N2_cell_1",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_N2_1"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          550.0,
+          530.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lg_N2_cell_2",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_N2_2"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          530.0,
+          550.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lg_N2_cell_3",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_N2_3"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          550.0,
+          550.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "sample_lg_sN2_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "lg_sN2",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_lg_N2_1"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          540.0,
+          540.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lg_sN2_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "lg_sN2",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          540.0,
+          540.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lg_sN2_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "lg_sN2",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          540.0,
+          540.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lg_sN2_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "lg_sN2",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_lg_sN2"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          540.0,
+          540.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "lg_E1_cell_0",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_E1_0"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          590.0,
+          190.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lg_E1_cell_1",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 0,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_E1_1"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          610.0,
+          190.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lg_E1_cell_2",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_E1_2"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          590.0,
+          210.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "lg_E1_cell_3",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 1,
+          "cell_col": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "map_chunk_lg_E1_3"
+        ],
+        "requires_data": [],
+        "requires_connected": true,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          610.0,
+          210.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "coverage_planner"
+      },
+      {
+        "id": "sample_lg_sE1_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_id": "lg_sE1",
+          "step_index": 0
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [
+          "map_chunk_lg_E1_1"
+        ],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          200.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lg_sE1_deploy_arm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_id": "lg_sE1",
+          "step_index": 1
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          200.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lg_sE1_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_id": "lg_sE1",
+          "step_index": 2
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          200.0,
+          0.0
+        ],
+        "estimated_duration_s": 600.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      },
+      {
+        "id": "sample_lg_sE1_store",
+        "op_type": "Store",
+        "params": {
+          "site_id": "lg_sE1",
+          "step_index": 3
+        },
+        "assigned_agent": null,
+        "capability_reqs": [],
+        "produces": [
+          "sample_lg_sE1"
+        ],
+        "requires_data": [],
+        "requires_connected": false,
+        "time_window": null,
+        "resources": [],
+        "status": null,
+        "failure_code": null,
+        "failure_detail": null,
+        "progress": null,
+        "timeout_s": null,
+        "retry_limit": 0,
+        "location": [
+          600.0,
+          200.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "sampling_template"
+      }
+    ],
+    "edges": [
+      {
+        "id": "lg_N1_order_0_1",
+        "type": "order",
+        "src": "lg_N1_cell_0",
+        "dst": "lg_N1_cell_1",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lg_N1_order_1_2",
+        "type": "order",
+        "src": "lg_N1_cell_1",
+        "dst": "lg_N1_cell_2",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lg_N1_order_2_3",
+        "type": "order",
+        "src": "lg_N1_cell_2",
+        "dst": "lg_N1_cell_3",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lg_sN1_order_0_1",
+        "type": "order",
+        "src": "sample_lg_sN1_approach",
+        "dst": "sample_lg_sN1_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lg_sN1_order_1_2",
+        "type": "order",
+        "src": "sample_lg_sN1_deploy_arm",
+        "dst": "sample_lg_sN1_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lg_sN1_order_2_3",
+        "type": "order",
+        "src": "sample_lg_sN1_extract",
+        "dst": "sample_lg_sN1_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lg_N2_order_0_1",
+        "type": "order",
+        "src": "lg_N2_cell_0",
+        "dst": "lg_N2_cell_1",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lg_N2_order_1_2",
+        "type": "order",
+        "src": "lg_N2_cell_1",
+        "dst": "lg_N2_cell_2",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lg_N2_order_2_3",
+        "type": "order",
+        "src": "lg_N2_cell_2",
+        "dst": "lg_N2_cell_3",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lg_sN2_order_0_1",
+        "type": "order",
+        "src": "sample_lg_sN2_approach",
+        "dst": "sample_lg_sN2_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lg_sN2_order_1_2",
+        "type": "order",
+        "src": "sample_lg_sN2_deploy_arm",
+        "dst": "sample_lg_sN2_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lg_sN2_order_2_3",
+        "type": "order",
+        "src": "sample_lg_sN2_extract",
+        "dst": "sample_lg_sN2_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lg_E1_order_0_1",
+        "type": "order",
+        "src": "lg_E1_cell_0",
+        "dst": "lg_E1_cell_1",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lg_E1_order_1_2",
+        "type": "order",
+        "src": "lg_E1_cell_1",
+        "dst": "lg_E1_cell_2",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "lg_E1_order_2_3",
+        "type": "order",
+        "src": "lg_E1_cell_2",
+        "dst": "lg_E1_cell_3",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lg_sE1_order_0_1",
+        "type": "order",
+        "src": "sample_lg_sE1_approach",
+        "dst": "sample_lg_sE1_deploy_arm",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lg_sE1_order_1_2",
+        "type": "order",
+        "src": "sample_lg_sE1_deploy_arm",
+        "dst": "sample_lg_sE1_extract",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "sample_lg_sE1_order_2_3",
+        "type": "order",
+        "src": "sample_lg_sE1_extract",
+        "dst": "sample_lg_sE1_store",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_0",
+        "type": "data",
+        "src": "lg_N1_cell_1",
+        "dst": "sample_lg_sN1_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_1",
+        "type": "data",
+        "src": "lg_N2_cell_1",
+        "dst": "sample_lg_sN2_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "auto_data_2",
+        "type": "data",
+        "src": "lg_E1_cell_1",
+        "dst": "sample_lg_sE1_approach",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "cross_order_0",
+        "type": "order",
+        "src": "lg_rN_deploy_0",
+        "dst": "lg_N1_cell_0",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "cross_order_1",
+        "type": "order",
+        "src": "lg_rN_deploy_0",
+        "dst": "lg_N2_cell_0",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      },
+      {
+        "id": "cross_order_2",
+        "type": "order",
+        "src": "lg_rE_deploy_0",
+        "dst": "lg_E1_cell_0",
+        "resource": null,
+        "milestone": null,
+        "note": null
+      }
+    ],
+    "constraints": {
+      "min_battery_percent": null,
+      "max_concurrent_tasks_per_agent": 1,
+      "periodic": []
+    },
+    "metadata": {}
+  },
+  "metadata": {
+    "scale": "large",
+    "variant_description": "G: Relay fan-out tree (2 relays, 3 sectors, 3 samples)",
+    "generated_by": "tool_library",
+    "node_count": 26,
+    "edge_count": 24,
+    "agent_count": 8,
+    "baseline_method": "greedy+CPM"
+  },
+  "baseline_sim_result": {
+    "makespan": 2679.07,
+    "task_completion_rate": 1.0,
+    "energy_consumption": {
+      "rover_1": 392.6244584051392,
+      "rover_2": 420.9087296526004,
+      "rover_3": 356.06147996996515,
+      "relay_1": 184.77669529663672,
+      "relay_2": 166.11388300841918,
+      "sampler_1": 382.55339059327343,
+      "sampler_2": 410.83766184073556,
+      "sampler_3": 345.22776601683836
+    },
+    "constraint_violations": [],
+    "comm_connectivity_rate": 1.0,
+    "bottleneck_tasks": [
+      "sample_lg_sE1_approach",
+      "sample_lg_sE1_deploy_arm",
+      "sample_lg_sE1_extract",
+      "sample_lg_sE1_store"
+    ],
+    "completed_tasks": [
+      "lg_rE_deploy_0",
+      "lg_rN_deploy_0",
+      "lg_E1_cell_0",
+      "lg_N1_cell_0",
+      "lg_N2_cell_0",
+      "lg_E1_cell_1",
+      "lg_N1_cell_1",
+      "lg_N2_cell_1",
+      "lg_E1_cell_2",
+      "sample_lg_sE1_approach",
+      "lg_N1_cell_2",
+      "sample_lg_sN1_approach",
+      "lg_N2_cell_2",
+      "sample_lg_sN2_approach",
+      "sample_lg_sE1_deploy_arm",
+      "sample_lg_sN1_deploy_arm",
+      "sample_lg_sN2_deploy_arm",
+      "lg_E1_cell_3",
+      "lg_N1_cell_3",
+      "lg_N2_cell_3",
+      "sample_lg_sE1_extract",
+      "sample_lg_sN1_extract",
+      "sample_lg_sN2_extract",
+      "sample_lg_sE1_store",
+      "sample_lg_sN1_store",
+      "sample_lg_sN2_store"
+    ],
+    "failed_tasks": [],
+    "greedy_cpm_makespan": 2679.07,
+    "greedy_coupled_makespan": 5214.0,
+    "cpsat_makespan": 2680.0,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_wall_s": 0.18
+  },
+  "baseline_schedule": {
+    "mission_id": "large_g_tree",
+    "makespan_s": 1440.0,
+    "items": [
+      {
+        "node_id": "lg_rE_deploy_0",
+        "agent": "relay_2",
+        "start_s": 0.0,
+        "end_s": 300.0
+      },
+      {
+        "node_id": "lg_rN_deploy_0",
+        "agent": "relay_1",
+        "start_s": 0.0,
+        "end_s": 300.0
+      },
+      {
+        "node_id": "lg_E1_cell_0",
+        "agent": "rover_3",
+        "start_s": 300.0,
+        "end_s": 420.0
+      },
+      {
+        "node_id": "lg_N1_cell_0",
+        "agent": "rover_1",
+        "start_s": 300.0,
+        "end_s": 420.0
+      },
+      {
+        "node_id": "lg_N2_cell_0",
+        "agent": "rover_2",
+        "start_s": 300.0,
+        "end_s": 420.0
+      },
+      {
+        "node_id": "lg_E1_cell_1",
+        "agent": "rover_3",
+        "start_s": 420.0,
+        "end_s": 540.0
+      },
+      {
+        "node_id": "lg_N1_cell_1",
+        "agent": "rover_1",
+        "start_s": 420.0,
+        "end_s": 540.0
+      },
+      {
+        "node_id": "lg_N2_cell_1",
+        "agent": "rover_2",
+        "start_s": 420.0,
+        "end_s": 540.0
+      },
+      {
+        "node_id": "lg_E1_cell_2",
+        "agent": "rover_3",
+        "start_s": 540.0,
+        "end_s": 660.0
+      },
+      {
+        "node_id": "sample_lg_sE1_approach",
+        "agent": "sampler_3",
+        "start_s": 540.0,
+        "end_s": 660.0
+      },
+      {
+        "node_id": "lg_N1_cell_2",
+        "agent": "rover_1",
+        "start_s": 540.0,
+        "end_s": 660.0
+      },
+      {
+        "node_id": "sample_lg_sN1_approach",
+        "agent": "sampler_1",
+        "start_s": 540.0,
+        "end_s": 660.0
+      },
+      {
+        "node_id": "lg_N2_cell_2",
+        "agent": "rover_2",
+        "start_s": 540.0,
+        "end_s": 660.0
+      },
+      {
+        "node_id": "sample_lg_sN2_approach",
+        "agent": "sampler_2",
+        "start_s": 540.0,
+        "end_s": 660.0
+      },
+      {
+        "node_id": "lg_E1_cell_3",
+        "agent": "rover_3",
+        "start_s": 660.0,
+        "end_s": 780.0
+      },
+      {
+        "node_id": "sample_lg_sE1_deploy_arm",
+        "agent": "sampler_3",
+        "start_s": 660.0,
+        "end_s": 720.0
+      },
+      {
+        "node_id": "lg_N1_cell_3",
+        "agent": "rover_1",
+        "start_s": 660.0,
+        "end_s": 780.0
+      },
+      {
+        "node_id": "sample_lg_sN1_deploy_arm",
+        "agent": "sampler_1",
+        "start_s": 660.0,
+        "end_s": 720.0
+      },
+      {
+        "node_id": "lg_N2_cell_3",
+        "agent": "rover_2",
+        "start_s": 660.0,
+        "end_s": 780.0
+      },
+      {
+        "node_id": "sample_lg_sN2_deploy_arm",
+        "agent": "sampler_2",
+        "start_s": 660.0,
+        "end_s": 720.0
+      },
+      {
+        "node_id": "sample_lg_sE1_extract",
+        "agent": "sampler_3",
+        "start_s": 720.0,
+        "end_s": 1320.0
+      },
+      {
+        "node_id": "sample_lg_sN1_extract",
+        "agent": "sampler_1",
+        "start_s": 720.0,
+        "end_s": 1320.0
+      },
+      {
+        "node_id": "sample_lg_sN2_extract",
+        "agent": "sampler_2",
+        "start_s": 720.0,
+        "end_s": 1320.0
+      },
+      {
+        "node_id": "sample_lg_sE1_store",
+        "agent": "sampler_3",
+        "start_s": 1320.0,
+        "end_s": 1440.0
+      },
+      {
+        "node_id": "sample_lg_sN1_store",
+        "agent": "sampler_1",
+        "start_s": 1320.0,
+        "end_s": 1440.0
+      },
+      {
+        "node_id": "sample_lg_sN2_store",
+        "agent": "sampler_2",
+        "start_s": 1320.0,
+        "end_s": 1440.0
+      }
+    ]
+  }
+}

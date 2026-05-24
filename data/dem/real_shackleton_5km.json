@@ -1,0 +1,2394 @@
+{
+  "taskgraph": {
+    "version": "0.1",
+    "mission_id": "real_shackleton_5km",
+    "nodes": [
+      {
+        "id": "real_shackleton_5km_explore_0",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 27,
+          "cell_col": 57,
+          "phase": 1
+        },
+        "location": [
+          2875.0,
+          1375.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_1",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 23,
+          "cell_col": 58,
+          "phase": 1
+        },
+        "location": [
+          2925.0,
+          1175.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_2",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 20,
+          "cell_col": 60,
+          "phase": 1
+        },
+        "location": [
+          3025.0,
+          1025.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_3",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 26,
+          "cell_col": 51,
+          "phase": 1
+        },
+        "location": [
+          2575.0,
+          1325.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_4",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 22,
+          "cell_col": 51,
+          "phase": 1
+        },
+        "location": [
+          2575.0,
+          1125.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_5",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 30,
+          "cell_col": 52,
+          "phase": 1
+        },
+        "location": [
+          2625.0,
+          1525.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_6",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 21,
+          "cell_col": 57,
+          "phase": 1
+        },
+        "location": [
+          2875.0,
+          1075.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_7",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 24,
+          "cell_col": 50,
+          "phase": 1
+        },
+        "location": [
+          2525.0,
+          1225.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_8",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 23,
+          "cell_col": 53,
+          "phase": 1
+        },
+        "location": [
+          2675.0,
+          1175.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_9",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 18,
+          "cell_col": 55,
+          "phase": 1
+        },
+        "location": [
+          2775.0,
+          925.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_10",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 48,
+          "cell_col": 91,
+          "phase": 1
+        },
+        "location": [
+          4575.0,
+          2425.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_11",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 57,
+          "cell_col": 85,
+          "phase": 1
+        },
+        "location": [
+          4275.0,
+          2875.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_12",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 59,
+          "cell_col": 82,
+          "phase": 1
+        },
+        "location": [
+          4125.0,
+          2975.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_13",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 49,
+          "cell_col": 80,
+          "phase": 1
+        },
+        "location": [
+          4025.0,
+          2475.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_14",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 51,
+          "cell_col": 87,
+          "phase": 1
+        },
+        "location": [
+          4375.0,
+          2575.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_15",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 59,
+          "cell_col": 91,
+          "phase": 1
+        },
+        "location": [
+          4575.0,
+          2975.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_16",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 54,
+          "cell_col": 87,
+          "phase": 1
+        },
+        "location": [
+          4375.0,
+          2725.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_17",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 56,
+          "cell_col": 80,
+          "phase": 1
+        },
+        "location": [
+          4025.0,
+          2825.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_18",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 51,
+          "cell_col": 83,
+          "phase": 1
+        },
+        "location": [
+          4175.0,
+          2575.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_19",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 49,
+          "cell_col": 88,
+          "phase": 1
+        },
+        "location": [
+          4425.0,
+          2475.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_20",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 25,
+          "cell_col": 34,
+          "phase": 1
+        },
+        "location": [
+          1725.0,
+          1275.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_21",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 22,
+          "cell_col": 31,
+          "phase": 1
+        },
+        "location": [
+          1575.0,
+          1125.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_22",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 14,
+          "cell_col": 36,
+          "phase": 1
+        },
+        "location": [
+          1825.0,
+          725.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_23",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 18,
+          "cell_col": 28,
+          "phase": 1
+        },
+        "location": [
+          1425.0,
+          925.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_24",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 18,
+          "cell_col": 26,
+          "phase": 1
+        },
+        "location": [
+          1325.0,
+          925.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_25",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 14,
+          "cell_col": 28,
+          "phase": 1
+        },
+        "location": [
+          1425.0,
+          725.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_26",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 20,
+          "cell_col": 35,
+          "phase": 1
+        },
+        "location": [
+          1775.0,
+          1025.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_27",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 21,
+          "cell_col": 26,
+          "phase": 1
+        },
+        "location": [
+          1325.0,
+          1075.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_28",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 15,
+          "cell_col": 32,
+          "phase": 1
+        },
+        "location": [
+          1625.0,
+          775.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_29",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 23,
+          "cell_col": 33,
+          "phase": 1
+        },
+        "location": [
+          1675.0,
+          1175.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_30",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 9,
+          "cell_col": 20,
+          "phase": 1
+        },
+        "location": [
+          1025.0,
+          475.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_31",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 13,
+          "cell_col": 18,
+          "phase": 1
+        },
+        "location": [
+          925.0,
+          675.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_32",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 4,
+          "cell_col": 13,
+          "phase": 1
+        },
+        "location": [
+          675.0,
+          225.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_33",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 12,
+          "cell_col": 10,
+          "phase": 1
+        },
+        "location": [
+          525.0,
+          625.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_34",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 15,
+          "cell_col": 14,
+          "phase": 1
+        },
+        "location": [
+          725.0,
+          775.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_35",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 15,
+          "cell_col": 19,
+          "phase": 1
+        },
+        "location": [
+          975.0,
+          775.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_36",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 13,
+          "cell_col": 21,
+          "phase": 1
+        },
+        "location": [
+          1075.0,
+          675.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_37",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 11,
+          "cell_col": 15,
+          "phase": 1
+        },
+        "location": [
+          775.0,
+          575.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_38",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 17,
+          "cell_col": 10,
+          "phase": 1
+        },
+        "location": [
+          525.0,
+          875.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_39",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 11,
+          "cell_col": 18,
+          "phase": 1
+        },
+        "location": [
+          925.0,
+          575.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_40",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 25,
+          "cell_col": 74,
+          "phase": 1
+        },
+        "location": [
+          3725.0,
+          1275.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_41",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 20,
+          "cell_col": 78,
+          "phase": 1
+        },
+        "location": [
+          3925.0,
+          1025.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_42",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 30,
+          "cell_col": 71,
+          "phase": 1
+        },
+        "location": [
+          3575.0,
+          1525.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_43",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 30,
+          "cell_col": 66,
+          "phase": 1
+        },
+        "location": [
+          3325.0,
+          1525.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_44",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 32,
+          "cell_col": 66,
+          "phase": 1
+        },
+        "location": [
+          3325.0,
+          1625.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_45",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 23,
+          "cell_col": 73,
+          "phase": 1
+        },
+        "location": [
+          3675.0,
+          1175.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_46",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 19,
+          "cell_col": 67,
+          "phase": 1
+        },
+        "location": [
+          3375.0,
+          975.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_47",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 22,
+          "cell_col": 63,
+          "phase": 1
+        },
+        "location": [
+          3175.0,
+          1125.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_48",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 18,
+          "cell_col": 71,
+          "phase": 1
+        },
+        "location": [
+          3575.0,
+          925.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_explore_49",
+        "op_type": "ExploreCell",
+        "params": {
+          "cell_row": 23,
+          "cell_col": 71,
+          "phase": 1
+        },
+        "location": [
+          3575.0,
+          1175.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "rover"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_relay_0",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 0,
+          "total_hops": 8,
+          "phase": 2
+        },
+        "location": [
+          2325.0,
+          2275.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_relay_1",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 1,
+          "total_hops": 8,
+          "phase": 2
+        },
+        "location": [
+          2125.0,
+          2025.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_relay_2",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 2,
+          "total_hops": 8,
+          "phase": 2
+        },
+        "location": [
+          1925.0,
+          1775.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_relay_3",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 3,
+          "total_hops": 8,
+          "phase": 2
+        },
+        "location": [
+          1725.0,
+          1525.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_relay_4",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 4,
+          "total_hops": 8,
+          "phase": 2
+        },
+        "location": [
+          1475.0,
+          1225.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_relay_5",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 5,
+          "total_hops": 8,
+          "phase": 2
+        },
+        "location": [
+          1325.0,
+          925.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_relay_6",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 6,
+          "total_hops": 8,
+          "phase": 2
+        },
+        "location": [
+          1075.0,
+          725.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_relay_7",
+        "op_type": "DeployRelay",
+        "params": {
+          "hop_index": 7,
+          "total_hops": 8,
+          "phase": 2
+        },
+        "location": [
+          975.0,
+          525.0,
+          0.0
+        ],
+        "estimated_duration_s": 300.0,
+        "agent_type_reqs": [
+          "relay"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_0_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_index": 0,
+          "phase": 3
+        },
+        "location": [
+          175.0,
+          3375.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_0_deployarm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_index": 0,
+          "phase": 3
+        },
+        "location": [
+          175.0,
+          3375.0,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_0_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_index": 0,
+          "phase": 3
+        },
+        "location": [
+          175.0,
+          3375.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_0_store",
+        "op_type": "Store",
+        "params": {
+          "site_index": 0,
+          "phase": 3
+        },
+        "location": [
+          175.0,
+          3375.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_1_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_index": 1,
+          "phase": 3
+        },
+        "location": [
+          2025.0,
+          4975.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_1_deployarm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_index": 1,
+          "phase": 3
+        },
+        "location": [
+          2025.0,
+          4975.0,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_1_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_index": 1,
+          "phase": 3
+        },
+        "location": [
+          2025.0,
+          4975.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_1_store",
+        "op_type": "Store",
+        "params": {
+          "site_index": 1,
+          "phase": 3
+        },
+        "location": [
+          2025.0,
+          4975.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_2_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_index": 2,
+          "phase": 3
+        },
+        "location": [
+          1375.0,
+          2775.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_2_deployarm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_index": 2,
+          "phase": 3
+        },
+        "location": [
+          1375.0,
+          2775.0,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_2_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_index": 2,
+          "phase": 3
+        },
+        "location": [
+          1375.0,
+          2775.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_2_store",
+        "op_type": "Store",
+        "params": {
+          "site_index": 2,
+          "phase": 3
+        },
+        "location": [
+          1375.0,
+          2775.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_3_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_index": 3,
+          "phase": 3
+        },
+        "location": [
+          925.0,
+          3575.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_3_deployarm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_index": 3,
+          "phase": 3
+        },
+        "location": [
+          925.0,
+          3575.0,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_3_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_index": 3,
+          "phase": 3
+        },
+        "location": [
+          925.0,
+          3575.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_3_store",
+        "op_type": "Store",
+        "params": {
+          "site_index": 3,
+          "phase": 3
+        },
+        "location": [
+          925.0,
+          3575.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_4_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_index": 4,
+          "phase": 3
+        },
+        "location": [
+          2975.0,
+          4125.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_4_deployarm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_index": 4,
+          "phase": 3
+        },
+        "location": [
+          2975.0,
+          4125.0,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_4_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_index": 4,
+          "phase": 3
+        },
+        "location": [
+          2975.0,
+          4125.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_4_store",
+        "op_type": "Store",
+        "params": {
+          "site_index": 4,
+          "phase": 3
+        },
+        "location": [
+          2975.0,
+          4125.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_5_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_index": 5,
+          "phase": 3
+        },
+        "location": [
+          2425.0,
+          3725.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_5_deployarm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_index": 5,
+          "phase": 3
+        },
+        "location": [
+          2425.0,
+          3725.0,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_5_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_index": 5,
+          "phase": 3
+        },
+        "location": [
+          2425.0,
+          3725.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_5_store",
+        "op_type": "Store",
+        "params": {
+          "site_index": 5,
+          "phase": 3
+        },
+        "location": [
+          2425.0,
+          3725.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_6_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_index": 6,
+          "phase": 3
+        },
+        "location": [
+          1375.0,
+          3625.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_6_deployarm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_index": 6,
+          "phase": 3
+        },
+        "location": [
+          1375.0,
+          3625.0,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_6_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_index": 6,
+          "phase": 3
+        },
+        "location": [
+          1375.0,
+          3625.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_6_store",
+        "op_type": "Store",
+        "params": {
+          "site_index": 6,
+          "phase": 3
+        },
+        "location": [
+          1375.0,
+          3625.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_7_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_index": 7,
+          "phase": 3
+        },
+        "location": [
+          4275.0,
+          3725.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_7_deployarm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_index": 7,
+          "phase": 3
+        },
+        "location": [
+          4275.0,
+          3725.0,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_7_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_index": 7,
+          "phase": 3
+        },
+        "location": [
+          4275.0,
+          3725.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_7_store",
+        "op_type": "Store",
+        "params": {
+          "site_index": 7,
+          "phase": 3
+        },
+        "location": [
+          4275.0,
+          3725.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_8_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_index": 8,
+          "phase": 3
+        },
+        "location": [
+          3675.0,
+          3775.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_8_deployarm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_index": 8,
+          "phase": 3
+        },
+        "location": [
+          3675.0,
+          3775.0,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_8_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_index": 8,
+          "phase": 3
+        },
+        "location": [
+          3675.0,
+          3775.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_8_store",
+        "op_type": "Store",
+        "params": {
+          "site_index": 8,
+          "phase": 3
+        },
+        "location": [
+          3675.0,
+          3775.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_9_approach",
+        "op_type": "Approach",
+        "params": {
+          "site_index": 9,
+          "phase": 3
+        },
+        "location": [
+          25.0,
+          2225.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_9_deployarm",
+        "op_type": "DeployArm",
+        "params": {
+          "site_index": 9,
+          "phase": 3
+        },
+        "location": [
+          25.0,
+          2225.0,
+          0.0
+        ],
+        "estimated_duration_s": 90.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_9_extract",
+        "op_type": "Extract",
+        "params": {
+          "site_index": 9,
+          "phase": 3
+        },
+        "location": [
+          25.0,
+          2225.0,
+          0.0
+        ],
+        "estimated_duration_s": 120.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_sample_9_store",
+        "op_type": "Store",
+        "params": {
+          "site_index": 9,
+          "phase": 3
+        },
+        "location": [
+          25.0,
+          2225.0,
+          0.0
+        ],
+        "estimated_duration_s": 60.0,
+        "agent_type_reqs": [
+          "sampler"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_analysis_0",
+        "op_type": "AnalyzeSample",
+        "params": {
+          "cluster_index": 0,
+          "phase": 4
+        },
+        "location": [
+          175.0,
+          3375.0,
+          0.0
+        ],
+        "estimated_duration_s": 180.0,
+        "agent_type_reqs": [
+          "analyzer"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_analysis_1",
+        "op_type": "AnalyzeSample",
+        "params": {
+          "cluster_index": 1,
+          "phase": 4
+        },
+        "location": [
+          1375.0,
+          2775.0,
+          0.0
+        ],
+        "estimated_duration_s": 180.0,
+        "agent_type_reqs": [
+          "analyzer"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_analysis_2",
+        "op_type": "AnalyzeSample",
+        "params": {
+          "cluster_index": 2,
+          "phase": 4
+        },
+        "location": [
+          2975.0,
+          4125.0,
+          0.0
+        ],
+        "estimated_duration_s": 180.0,
+        "agent_type_reqs": [
+          "analyzer"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_analysis_3",
+        "op_type": "AnalyzeSample",
+        "params": {
+          "cluster_index": 3,
+          "phase": 4
+        },
+        "location": [
+          1375.0,
+          3625.0,
+          0.0
+        ],
+        "estimated_duration_s": 180.0,
+        "agent_type_reqs": [
+          "analyzer"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_analysis_4",
+        "op_type": "AnalyzeSample",
+        "params": {
+          "cluster_index": 4,
+          "phase": 4
+        },
+        "location": [
+          3675.0,
+          3775.0,
+          0.0
+        ],
+        "estimated_duration_s": 180.0,
+        "agent_type_reqs": [
+          "analyzer"
+        ],
+        "generated_by": "realistic_mission"
+      },
+      {
+        "id": "real_shackleton_5km_upload_final",
+        "op_type": "UploadMapChunk",
+        "params": {
+          "phase": 5
+        },
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "estimated_duration_s": 240.0,
+        "agent_type_reqs": [
+          "analyzer"
+        ],
+        "generated_by": "realistic_mission"
+      }
+    ],
+    "edges": [
+      {
+        "id": "real_shackleton_5km_relay_e0",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_0",
+        "dst": "real_shackleton_5km_relay_1"
+      },
+      {
+        "id": "real_shackleton_5km_relay_e1",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_1",
+        "dst": "real_shackleton_5km_relay_2"
+      },
+      {
+        "id": "real_shackleton_5km_relay_e2",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_2",
+        "dst": "real_shackleton_5km_relay_3"
+      },
+      {
+        "id": "real_shackleton_5km_relay_e3",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_3",
+        "dst": "real_shackleton_5km_relay_4"
+      },
+      {
+        "id": "real_shackleton_5km_relay_e4",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_4",
+        "dst": "real_shackleton_5km_relay_5"
+      },
+      {
+        "id": "real_shackleton_5km_relay_e5",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_5",
+        "dst": "real_shackleton_5km_relay_6"
+      },
+      {
+        "id": "real_shackleton_5km_relay_e6",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_6",
+        "dst": "real_shackleton_5km_relay_7"
+      },
+      {
+        "id": "real_shackleton_5km_sample0_e0",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_0_approach",
+        "dst": "real_shackleton_5km_sample_0_deployarm"
+      },
+      {
+        "id": "real_shackleton_5km_sample0_e1",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_0_deployarm",
+        "dst": "real_shackleton_5km_sample_0_extract"
+      },
+      {
+        "id": "real_shackleton_5km_sample0_e2",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_0_extract",
+        "dst": "real_shackleton_5km_sample_0_store"
+      },
+      {
+        "id": "real_shackleton_5km_sample0_data",
+        "type": "data",
+        "src": "real_shackleton_5km_explore_0",
+        "dst": "real_shackleton_5km_sample_0_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample0_relayorder",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_7",
+        "dst": "real_shackleton_5km_sample_0_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample1_e0",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_1_approach",
+        "dst": "real_shackleton_5km_sample_1_deployarm"
+      },
+      {
+        "id": "real_shackleton_5km_sample1_e1",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_1_deployarm",
+        "dst": "real_shackleton_5km_sample_1_extract"
+      },
+      {
+        "id": "real_shackleton_5km_sample1_e2",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_1_extract",
+        "dst": "real_shackleton_5km_sample_1_store"
+      },
+      {
+        "id": "real_shackleton_5km_sample1_data",
+        "type": "data",
+        "src": "real_shackleton_5km_explore_1",
+        "dst": "real_shackleton_5km_sample_1_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample1_relayorder",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_7",
+        "dst": "real_shackleton_5km_sample_1_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample2_e0",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_2_approach",
+        "dst": "real_shackleton_5km_sample_2_deployarm"
+      },
+      {
+        "id": "real_shackleton_5km_sample2_e1",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_2_deployarm",
+        "dst": "real_shackleton_5km_sample_2_extract"
+      },
+      {
+        "id": "real_shackleton_5km_sample2_e2",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_2_extract",
+        "dst": "real_shackleton_5km_sample_2_store"
+      },
+      {
+        "id": "real_shackleton_5km_sample2_data",
+        "type": "data",
+        "src": "real_shackleton_5km_explore_2",
+        "dst": "real_shackleton_5km_sample_2_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample2_relayorder",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_7",
+        "dst": "real_shackleton_5km_sample_2_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample3_e0",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_3_approach",
+        "dst": "real_shackleton_5km_sample_3_deployarm"
+      },
+      {
+        "id": "real_shackleton_5km_sample3_e1",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_3_deployarm",
+        "dst": "real_shackleton_5km_sample_3_extract"
+      },
+      {
+        "id": "real_shackleton_5km_sample3_e2",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_3_extract",
+        "dst": "real_shackleton_5km_sample_3_store"
+      },
+      {
+        "id": "real_shackleton_5km_sample3_data",
+        "type": "data",
+        "src": "real_shackleton_5km_explore_3",
+        "dst": "real_shackleton_5km_sample_3_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample3_relayorder",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_7",
+        "dst": "real_shackleton_5km_sample_3_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample4_e0",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_4_approach",
+        "dst": "real_shackleton_5km_sample_4_deployarm"
+      },
+      {
+        "id": "real_shackleton_5km_sample4_e1",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_4_deployarm",
+        "dst": "real_shackleton_5km_sample_4_extract"
+      },
+      {
+        "id": "real_shackleton_5km_sample4_e2",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_4_extract",
+        "dst": "real_shackleton_5km_sample_4_store"
+      },
+      {
+        "id": "real_shackleton_5km_sample4_data",
+        "type": "data",
+        "src": "real_shackleton_5km_explore_4",
+        "dst": "real_shackleton_5km_sample_4_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample4_relayorder",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_7",
+        "dst": "real_shackleton_5km_sample_4_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample5_e0",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_5_approach",
+        "dst": "real_shackleton_5km_sample_5_deployarm"
+      },
+      {
+        "id": "real_shackleton_5km_sample5_e1",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_5_deployarm",
+        "dst": "real_shackleton_5km_sample_5_extract"
+      },
+      {
+        "id": "real_shackleton_5km_sample5_e2",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_5_extract",
+        "dst": "real_shackleton_5km_sample_5_store"
+      },
+      {
+        "id": "real_shackleton_5km_sample5_data",
+        "type": "data",
+        "src": "real_shackleton_5km_explore_5",
+        "dst": "real_shackleton_5km_sample_5_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample5_relayorder",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_7",
+        "dst": "real_shackleton_5km_sample_5_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample6_e0",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_6_approach",
+        "dst": "real_shackleton_5km_sample_6_deployarm"
+      },
+      {
+        "id": "real_shackleton_5km_sample6_e1",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_6_deployarm",
+        "dst": "real_shackleton_5km_sample_6_extract"
+      },
+      {
+        "id": "real_shackleton_5km_sample6_e2",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_6_extract",
+        "dst": "real_shackleton_5km_sample_6_store"
+      },
+      {
+        "id": "real_shackleton_5km_sample6_data",
+        "type": "data",
+        "src": "real_shackleton_5km_explore_6",
+        "dst": "real_shackleton_5km_sample_6_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample6_relayorder",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_7",
+        "dst": "real_shackleton_5km_sample_6_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample7_e0",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_7_approach",
+        "dst": "real_shackleton_5km_sample_7_deployarm"
+      },
+      {
+        "id": "real_shackleton_5km_sample7_e1",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_7_deployarm",
+        "dst": "real_shackleton_5km_sample_7_extract"
+      },
+      {
+        "id": "real_shackleton_5km_sample7_e2",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_7_extract",
+        "dst": "real_shackleton_5km_sample_7_store"
+      },
+      {
+        "id": "real_shackleton_5km_sample7_data",
+        "type": "data",
+        "src": "real_shackleton_5km_explore_7",
+        "dst": "real_shackleton_5km_sample_7_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample7_relayorder",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_7",
+        "dst": "real_shackleton_5km_sample_7_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample8_e0",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_8_approach",
+        "dst": "real_shackleton_5km_sample_8_deployarm"
+      },
+      {
+        "id": "real_shackleton_5km_sample8_e1",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_8_deployarm",
+        "dst": "real_shackleton_5km_sample_8_extract"
+      },
+      {
+        "id": "real_shackleton_5km_sample8_e2",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_8_extract",
+        "dst": "real_shackleton_5km_sample_8_store"
+      },
+      {
+        "id": "real_shackleton_5km_sample8_data",
+        "type": "data",
+        "src": "real_shackleton_5km_explore_8",
+        "dst": "real_shackleton_5km_sample_8_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample8_relayorder",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_7",
+        "dst": "real_shackleton_5km_sample_8_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample9_e0",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_9_approach",
+        "dst": "real_shackleton_5km_sample_9_deployarm"
+      },
+      {
+        "id": "real_shackleton_5km_sample9_e1",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_9_deployarm",
+        "dst": "real_shackleton_5km_sample_9_extract"
+      },
+      {
+        "id": "real_shackleton_5km_sample9_e2",
+        "type": "order",
+        "src": "real_shackleton_5km_sample_9_extract",
+        "dst": "real_shackleton_5km_sample_9_store"
+      },
+      {
+        "id": "real_shackleton_5km_sample9_data",
+        "type": "data",
+        "src": "real_shackleton_5km_explore_9",
+        "dst": "real_shackleton_5km_sample_9_approach"
+      },
+      {
+        "id": "real_shackleton_5km_sample9_relayorder",
+        "type": "order",
+        "src": "real_shackleton_5km_relay_7",
+        "dst": "real_shackleton_5km_sample_9_approach"
+      },
+      {
+        "id": "real_shackleton_5km_analysis0_data0",
+        "type": "data",
+        "src": "real_shackleton_5km_sample_0_store",
+        "dst": "real_shackleton_5km_analysis_0"
+      },
+      {
+        "id": "real_shackleton_5km_analysis0_data1",
+        "type": "data",
+        "src": "real_shackleton_5km_sample_1_store",
+        "dst": "real_shackleton_5km_analysis_0"
+      },
+      {
+        "id": "real_shackleton_5km_analysis1_data2",
+        "type": "data",
+        "src": "real_shackleton_5km_sample_2_store",
+        "dst": "real_shackleton_5km_analysis_1"
+      },
+      {
+        "id": "real_shackleton_5km_analysis1_data3",
+        "type": "data",
+        "src": "real_shackleton_5km_sample_3_store",
+        "dst": "real_shackleton_5km_analysis_1"
+      },
+      {
+        "id": "real_shackleton_5km_analysis2_data4",
+        "type": "data",
+        "src": "real_shackleton_5km_sample_4_store",
+        "dst": "real_shackleton_5km_analysis_2"
+      },
+      {
+        "id": "real_shackleton_5km_analysis2_data5",
+        "type": "data",
+        "src": "real_shackleton_5km_sample_5_store",
+        "dst": "real_shackleton_5km_analysis_2"
+      },
+      {
+        "id": "real_shackleton_5km_analysis3_data6",
+        "type": "data",
+        "src": "real_shackleton_5km_sample_6_store",
+        "dst": "real_shackleton_5km_analysis_3"
+      },
+      {
+        "id": "real_shackleton_5km_analysis3_data7",
+        "type": "data",
+        "src": "real_shackleton_5km_sample_7_store",
+        "dst": "real_shackleton_5km_analysis_3"
+      },
+      {
+        "id": "real_shackleton_5km_analysis4_data8",
+        "type": "data",
+        "src": "real_shackleton_5km_sample_8_store",
+        "dst": "real_shackleton_5km_analysis_4"
+      },
+      {
+        "id": "real_shackleton_5km_analysis4_data9",
+        "type": "data",
+        "src": "real_shackleton_5km_sample_9_store",
+        "dst": "real_shackleton_5km_analysis_4"
+      },
+      {
+        "id": "real_shackleton_5km_upload_from_real_shackleton_5km_analysis_0",
+        "type": "data",
+        "src": "real_shackleton_5km_analysis_0",
+        "dst": "real_shackleton_5km_upload_final"
+      },
+      {
+        "id": "real_shackleton_5km_upload_from_real_shackleton_5km_analysis_1",
+        "type": "data",
+        "src": "real_shackleton_5km_analysis_1",
+        "dst": "real_shackleton_5km_upload_final"
+      },
+      {
+        "id": "real_shackleton_5km_upload_from_real_shackleton_5km_analysis_2",
+        "type": "data",
+        "src": "real_shackleton_5km_analysis_2",
+        "dst": "real_shackleton_5km_upload_final"
+      },
+      {
+        "id": "real_shackleton_5km_upload_from_real_shackleton_5km_analysis_3",
+        "type": "data",
+        "src": "real_shackleton_5km_analysis_3",
+        "dst": "real_shackleton_5km_upload_final"
+      },
+      {
+        "id": "real_shackleton_5km_upload_from_real_shackleton_5km_analysis_4",
+        "type": "data",
+        "src": "real_shackleton_5km_analysis_4",
+        "dst": "real_shackleton_5km_upload_final"
+      }
+    ]
+  },
+  "metadata": {
+    "scale": "large",
+    "variant_description": "realistic 5km Shackleton mission (104 tasks)",
+    "dem_source": "shackleton_5km.npz",
+    "n_agents_recommended": 15,
+    "agent_fleet": {
+      "rover": 5,
+      "relay": 3,
+      "sampler": 4,
+      "analyzer": 3
+    },
+    "comm_range_m": 700.0,
+    "sampler_seed": 42,
+    "phases": {
+      "1_reconnaissance": 50,
+      "2_relay_deploy": 8,
+      "3_sampling": 40,
+      "4_analysis": 5,
+      "5_upload": 1
+    },
+    "generated_by": "sample_task_points_realistic.py"
+  },
+  "baseline_sim_result": null
+}
